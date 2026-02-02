@@ -9,6 +9,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
+- **Era II: Bronze Age Quest Line** - 15 quests (IDs 10-24)
+  - Copper & Tin mining introduction
+  - Rubber tree harvesting and processing
+  - Bronze alloy crafting (3:1 copper:tin)
+  - First cables and insulation
+  - Iron Furnace → Generator progression
+  - RE-Battery and BatBox power storage
+  - Electronic Circuit crafting
+  - First power grid assembly
+  - All quests have IC2 Classic item IDs verified
+  - Teaching progression: each quest explains WHY
+  - Convergence points: multiple paths merge naturally
+
 - **ProjectE Integration** - Tech-gated transmutation progression
   - CraftTweaker script: `scripts/projecte_integration.zs`
   - **Dark Matter** gated behind IC2 Advanced Circuits
