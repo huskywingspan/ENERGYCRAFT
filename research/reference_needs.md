@@ -192,73 +192,76 @@ This document identifies the technical documentation, wiki references, and data 
 
 ## Reference Compilation Checklist
 
+**Last Updated:** 2026-02-02
+
 ### Phase 1: Item IDs & Recipes
-- [ ] IC2 Classic item ID dump
-- [ ] BuildCraft item ID dump  
-- [ ] Draconic Evolution item ID dump
-- [ ] Project Red item ID dump
-- [ ] Forestry item ID dump
+- [x] IC2 Classic item ID patterns (cables, circuits, ore dict)
+- [x] BuildCraft item ID dump (gears, pipes, machines, ore dict)
+- [x] Draconic Evolution item ID dump (cores, machines, materials)
+- [x] Project Red item ID dump (modules, pipes, chips)
+- [x] Forestry item ID patterns (machines, bees)
 
 ### Phase 2: Config Documentation
-- [ ] IC2 Classic config options explained
-- [ ] Draconic Evolution config options
-- [ ] ProjectE config options
-- [ ] BuildCraft config options
+- [x] IC2 Classic config options (energy, crafting, features)
+- [x] Draconic Evolution config options (tweaks, world, stats)
+- [x] ProjectE config options (difficulty, pedestals, cooldowns)
+- [x] BuildCraft config options (general, worldgen, modules)
+- [x] Energy Converters config (conversion ratios)
 
 ### Phase 3: Mechanic Documentation
-- [ ] EU power system guide
-- [ ] MJ power system guide
-- [ ] EMC system guide
-- [ ] Fusion Crafting guide
-- [ ] Bee breeding guide
+- [x] EU power system guide (tiers, generators)
+- [x] MJ power system guide (engines, consumption)
+- [x] EMC system guide (values, custom_emc.json format)
+- [x] Energy Core capacities (all tiers documented)
+- [ ] Fusion Crafting detailed guide (partial - need injector tiers)
+- [ ] Bee breeding detailed guide (basic info only)
 
 ### Phase 4: CraftTweaker Patterns
-- [ ] IC2 Classic CraftTweaker examples
-- [ ] BuildCraft CraftTweaker examples
-- [ ] Mod-specific bracket handlers
+- [x] CraftTweaker 1.12.2 syntax (comprehensive)
+- [x] Recipe operations (add, remove, modify)
+- [x] Ore dictionary usage
+- [x] Common gating patterns documented
+
+### Phase 5: Additional Research Needed
+- [ ] Full gate type list for Project Red Integration
+- [ ] Complete pipe meta values for BuildCraft
+- [ ] IC2 Classic machine block meta values
+- [ ] Forestry bee species complete list
+- [ ] Logistics Pipes detailed documentation
 
 ---
 
-## Proposed Reference Structure
+## Completed Reference Document
 
-```
-references/
-├── item_ids/
-│   ├── ic2_classic_items.md
-│   ├── buildcraft_items.md
-│   ├── draconic_evolution_items.md
-│   └── project_red_items.md
-├── configs/
-│   ├── ic2_config_guide.md
-│   ├── draconic_config_guide.md
-│   └── projecte_config_guide.md
-├── mechanics/
-│   ├── eu_power_system.md
-│   ├── mj_power_system.md
-│   └── emc_system.md
-└── crafttweaker/
-    ├── syntax_reference.md
-    ├── ic2_examples.zs
-    └── common_patterns.md
-```
+**Location:** `references/technical_reference.md`
+
+This comprehensive document now contains:
+1. CraftTweaker 1.12.2 complete syntax reference
+2. IC2 Classic item IDs, energy values, ore dictionary
+3. BuildCraft items, power values, ore dictionary
+4. Draconic Evolution items, config, energy cores
+5. ProjectE EMC format, config, balance tips
+6. Project Red modules, pipes, chips
+7. Forestry basic reference
+8. Energy conversion ratios (with calculations)
+9. Logistics Pipes overview
+10. File locations and commands
 
 ---
 
 ## Web Research Priorities
 
-### High Priority (Need Now)
-1. **IC2 Classic item IDs** - Critical for recipe scripts
-2. **CraftTweaker 1.12.2 syntax** - All scripting
-3. **Draconic Evolution item IDs** - Current integration
-4. **IC2 Classic config guide** - Balance settings
+### Completed ✓
+1. ~~IC2 Classic item IDs~~ - Documented from configs
+2. ~~CraftTweaker 1.12.2 syntax~~ - From docs.blamejared.com
+3. ~~Draconic Evolution item IDs~~ - Verified in scripts
+4. ~~IC2 Classic config guide~~ - From config files
+5. ~~BuildCraft ore dictionary~~ - From GitHub wiki
+6. ~~Project Red pipe types~~ - From projectredwiki.com
+7. ~~Energy conversion ratios~~ - Calculated from configs
 
-### Medium Priority (Need Soon)
-5. BuildCraft item IDs
-6. Project Red item IDs
-7. ProjectE EMC defaults & config
-8. Forestry bees reference
-
-### Lower Priority (Nice to Have)
-9. Railcraft reference
-10. Logistics Pipes reference
-11. Community modpack examples
+### Still Needed (Lower Priority)
+8. IC2 Classic machine block meta values (need in-game `/ct hand`)
+9. Complete Forestry bee breeding chart
+10. Railcraft detailed reference
+11. Community modpack comparison examples

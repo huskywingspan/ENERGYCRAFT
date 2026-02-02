@@ -183,6 +183,144 @@ Early Game           Mid Game            Late Game
 
 ---
 
+## 🖥️ Wild Idea: In-Game Markdown Reader (CC:Tweaked)
+
+> **Status:** Pure "wouldn't this be cool?" territory
+> **Effort:** Medium-High (Lua programming)
+> **Fun Factor:** 📈📈📈📈📈
+
+### The Concept
+
+What if players could read modpack documentation **inside Minecraft** using ComputerCraft computers?
+
+```
+    ┌─────────────────────────────────────────────────────────┐
+    │  CC:Tweaked Computer                                    │
+    │  ┌─────────────────────────────────────────────────────┐│
+    │  │ > mdread disk/welcome                               ││
+    │  │                                                     ││
+    │  │ ╔═══════════════════════════════════════════════╗  ││
+    │  │ ║  WELCOME TO ENERGYCRAFT                       ║  ││
+    │  │ ╠═══════════════════════════════════════════════╣  ││
+    │  │ ║                                               ║  ││
+    │  │ ║  You are an Engineer. Your journey begins    ║  ││
+    │  │ ║  with humble stone tools, but will end with  ║  ││
+    │  │ ║  **dragons** and **infinite power**.         ║  ││
+    │  │ ║                                               ║  ││
+    │  │ ║  ## Getting Started                          ║  ││
+    │  │ ║  1. Punch trees                              ║  ││
+    │  │ ║  2. Find copper and tin                      ║  ││
+    │  │ ║  3. Discover rubber trees                    ║  ││
+    │  │ ║                                               ║  ││
+    │  │ ╚═══════════════════════════════════════════════╝  ││
+    │  │                                                     ││
+    │  │ [Page 1/5] [N]ext [P]rev [Q]uit                    ││
+    │  └─────────────────────────────────────────────────────┘│
+    └─────────────────────────────────────────────────────────┘
+```
+
+### Implementation Ideas
+
+**Floppy Disk Documentation:**
+- Ship modpack with pre-made floppy disks containing `.md` files
+- Players find "Documentation Disk" in dungeon loot or quest rewards
+- Disk labels: "EnergyCraft Manual Vol. 1", "IC2 Quick Reference", etc.
+
+**Markdown Parser in Lua:**
+```lua
+-- Conceptual mdread program
+-- Renders markdown to CC terminal with colors
+
+local md = require("markdown")  -- Custom library
+
+-- Render heading as colored/bordered
+-- # Heading  →  Yellow text, double-line border
+-- ## Heading →  Orange text, single-line border
+
+-- **bold** → White text (stands out on black)
+-- *italic* → Light gray text
+-- `code`   → Cyan text (like terminal)
+-- - Lists  → Bullet character + indent
+
+-- Links could open other docs or run programs!
+-- [See IC2 Guide](disk/ic2_guide)
+```
+
+**CC:Tweaked Features We'd Use:**
+- `term.setTextColor()` - Colored text for headers/emphasis
+- `paintutils` - Could render simple graphics/borders
+- Floppy disks - Perfect for distributing docs
+- `fs` API - Read `.md` files from disk
+- Pocket computers - Portable documentation!
+
+**Rendering Rules (Minecraft-ified):**
+
+| Markdown | CC Terminal Rendering |
+|----------|----------------------|
+| `# H1` | Yellow text, `═══` border above/below |
+| `## H2` | Orange text, `───` border below |
+| `### H3` | Lime text, no border |
+| `**bold**` | White text (high contrast) |
+| `*italic*` | Light gray text |
+| `` `code` `` | Cyan text |
+| `> quote` | Gray `│` prefix, gray text |
+| `- list` | `•` bullet, indented |
+| `---` | Gray `════════` line |
+| `[link](file)` | Blue text, clickable to open file |
+
+**Advanced Features (Stretch Goals):**
+- Scrolling with arrow keys
+- Search within document (`/pattern`)
+- Table of contents generation
+- Hyperlinks between documents
+- Images rendered as ASCII art (lol)
+- Monitor support for big displays
+
+### Why This Would Be Cool
+
+1. **Immersive** - Documentation feels like part of the game world
+2. **Discoverable** - Players find docs as loot, not just online
+3. **Thematic** - CC:Tweaked is already about programming in MC
+4. **Educational** - Teaches basic Lua and terminal concepts
+5. **Unique** - No other modpack does this (that I know of)
+6. **Fun Project** - Great excuse to write Lua
+
+### Documentation We Could Include
+
+```
+disk/
+├── welcome.md           # First-time player intro
+├── progression.md       # Era overview
+├── ic2_basics.md        # IC2 Classic crash course
+├── buildcraft_101.md    # Pipes and engines
+├── power_systems.md     # EU vs MJ vs RF explained
+├── nuclear_safety.md    # "Don't blow up your base"
+├── projecte_guide.md    # EMC and transmutation
+├── draconic_evo.md      # End-game content
+├── tips_and_tricks.md   # Hidden features
+└── credits.md           # Mod authors, thank yous
+```
+
+### Technical Notes
+
+- CC:Tweaked source is available (MIT license)
+- Lua is simple enough for basic markdown parsing
+- Could start with subset: headers, bold, lists only
+- Advanced features (tables) could come later
+- Monitor API allows multi-block displays
+
+### Resources
+
+- CC:Tweaked GitHub: https://github.com/cc-tweaked/CC-Tweaked
+- Lua patterns (for parsing): https://www.lua.org/pil/20.2.html
+- Example text rendering programs in CC community
+
+---
+
+*This is a "someday/maybe" idea. Would be a fun side project once core modpack is stable!*
+
+---
+
 ## Questions to Answer During Playtesting
 
 1. Is the early game too grindy without EMC?

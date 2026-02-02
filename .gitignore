@@ -9,6 +9,12 @@ mods/*.jar
 mods/**/*.jar
 
 # ===================
+# DISTRIBUTION ARCHIVES (uploaded to GitHub Releases, not tracked)
+# ===================
+energycraft-mods.zip
+mod-manifest.txt
+
+# ===================
 # WORLD SAVES (personal, large)
 # ===================
 saves/

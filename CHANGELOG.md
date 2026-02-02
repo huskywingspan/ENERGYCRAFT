@@ -9,6 +9,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
+- **Modpack Distribution System**
+  - `setup.ps1` - Automated mod download script (fetches from GitHub Releases)
+  - `tools/package-mods.ps1` - Packages mods into distributable archive
+  - `mod-manifest.txt` - Auto-generated list of all 51 mods
+  - Updated README with proper installation instructions
+
 - **Better Questing System** - Quest book progression implemented
   - Better Questing 3.5.312 + Standard Expansion 3.4.167 + Quest Book 3.1.1
   - Era I: Stone Age (10 quests) fully implemented programmatically
