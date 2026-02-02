@@ -10,29 +10,29 @@
 These need verification because IC2 Classic uses different IDs than IC2 Experimental.
 
 ### Basic Machines
-- [ ] Electric Furnace
-- [ ] Macerator
-- [ ] Extractor
-- [ ] Compressor
-- [ ] Recycler
-- [ ] Metal Former
-- [ ] Canning Machine
+- [ ] Electric Furnace - <ic2:blockmachinelv:2>
+- [ ] Macerator - <ic2:blockmachinelv:3>
+- [ ] Extractor - <ic2:blockmachinelv:4>
+- [ ] Compressor - <ic2:blockmachinelv:5>
+- [ ] Recycler - <ic2:blockmachinelv:7>
+- [ ] Metal Former - Couldn't find this in JEI
+- [ ] Canning Machine - <ic2:blockmachinelv:6>
 
 ### Advanced Machines
-- [ ] Induction Furnace
-- [ ] Rotary Macerator
-- [ ] Centrifugal Extractor
-- [ ] Singularity Compressor
-- [ ] Advanced Canning Machine
+- [ ] Induction Furnace - <ic2:blockmachinemv:1>
+- [ ] Rotary Macerator - <ic2:blockmachinemv:2>
+- [ ] Centrifugal Extractor - <ic2:blockmachinemv:3>
+- [ ] Singularity Compressor - <ic2:blockmachinemv:4>
+- [ ] Advanced Canning Machine - Couldn't find in JEI
 
 ### Generators
-- [ ] Generator (basic)
-- [ ] Geothermal Generator
-- [ ] Solar Panel
-- [ ] Water Mill
-- [ ] Wind Mill
-- [ ] Nuclear Reactor
-- [ ] Radioisotope Thermoelectric Generator
+- [ ] Generator (basic) - <ic2:blockgenerator>
+- [ ] Geothermal Generator - <ic2:blockgenerator:1>
+- [ ] Solar Panel - <ic2:blockgenerator:3>
+- [ ] Water Mill - <ic2:blockgenerator:2>
+- [ ] Wind Mill - <ic2:blockgenerator:4>
+- [ ] Nuclear Reactor - <ic2:blockgenerator:5>
+- [ ] Radioisotope Thermoelectric Generator - couldn't find in JEI
 
 ### Transformers & Storage
 - [ ] LV Transformer

@@ -49,7 +49,9 @@
   "ic2exprecipe_Obsidian Dust_": true,
   "item.railcraft.dust.sulfur_-1869167416": true,
   "item.railcraft.dust.saltpeter_907682254": true,
-  "item.projectred.core.itemResource.electrotine_dust_-1694037871": true
+  "item.projectred.core.itemResource.electrotine_dust_-1694037871": true,
+  "item.draconicevolution:draconium_dust_855646429": true,
+  "item.draconicevolution:draconium_dust_1233431810": true
  },
  "extractor": {
   "item.coal_764578481": true,
@@ -191,7 +193,9 @@
   "ingotRecycling_ingotNickel": true,
   "ingotRecycling_ingotInvar": true,
   "ingotRecycling_ingotZinc": true,
-  "ingotRecycling_ingotBrass": true
+  "ingotRecycling_ingotBrass": true,
+  "ingotRecycling_ingotDraconium": true,
+  "ingotRecycling_ingotDraconiumAwakened": true
  },
  "sawmill": {
   "tile.wood.oak_-867074482": true,

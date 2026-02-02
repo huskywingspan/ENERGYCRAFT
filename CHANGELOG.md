@@ -9,6 +9,36 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
+- **Era III: Industrial Age Quest Line** - 24 quests (IDs 25-48)
+  - Three-branch progression structure converging at Advanced Machines
+  - **Ore Processing Branch (Quests 26-30):**
+    - Macerator introduction (double ore output!)
+    - Electric Furnace (powered smelting)
+    - Extractor (3x rubber from resin)
+    - Compressor (material densification)
+  - **Power Generation Branch (Quests 31-35):**
+    - Alternative energy intro
+    - Solar Panel (free daytime power)
+    - Water Mill (passive generation)
+    - Geothermal Generator (lava powerhouse)
+    - Power source comparison guide
+  - **Energy Storage Branch (Quests 36-40):**
+    - EU storage tier explanation
+    - CESU (MV tier, 300k EU)
+    - MFE (HV tier, 4M EU)
+    - MFSU (EV tier, 10M EU)
+    - Cable tier guide (Glass Fibre)
+  - **Advanced Machines Branch (Quests 41-48):**
+    - Advanced Circuit crafting
+    - Advanced Machine Block
+    - Induction Furnace (2x speed, heats up)
+    - Rotary Macerator (4x speed when spun up)
+    - Singularity Compressor
+    - Centrifuge Extractor
+    - Nuclear preview (Reactor Chamber)
+    - ERA III COMPLETE gateway
+  - Visual quest layout with branching paths
+
 - **Era II: Bronze Age Quest Line** - 15 quests (IDs 10-24)
   - Copper & Tin mining introduction
   - Rubber tree harvesting and processing

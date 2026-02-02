@@ -250,15 +250,15 @@
 ---
 
 ## Phase 3: ProjectE Integration
-**Duration:** 2 weeks (STARTING NOW)  
+**Duration:** 2 weeks (COMPLETE ✅)  
 **Lead:** Integrator  
-**Status:** Starting development
+**Completed:** February 2, 2026
 
 ### Goals
-- [ ] Rebalance EMC values
-- [ ] Create tech-gated transmutation
-- [ ] Make ProjectE complement, not bypass, tech
-- [ ] Establish "earned" path to Red Matter
+- [x] Rebalance EMC values
+- [x] Create tech-gated transmutation
+- [x] Make ProjectE complement, not bypass, tech
+- [x] Establish "earned" path to Red Matter
 
 ### EMC Rebalancing Strategy
 
@@ -298,18 +298,18 @@ recipes.addShaped("dark_matter_tech", <projecte:item.pe_matter>,
 ### Curator Tasks
 | Task | Priority | Status |
 |------|----------|--------|
-| Document all default EMC values | High | 🔲 IN PROGRESS |
-| Research other packs' EMC balance | Medium | 🔲 NEXT |
-| Identify EMC exploits to close | High | 🔲 NEXT |
-| Find ProjectE config options | High | 🔲 NEXT |
+| Document all default EMC values | High | ✅ Complete |
+| Research other packs' EMC balance | Medium | ✅ Complete |
+| Identify EMC exploits to close | High | ✅ Complete - handoff doc |
+| Find ProjectE config options | High | ✅ Complete |
 
 ### Integrator Tasks
 | Task | Priority | Status |
 |------|----------|--------|
-| Create EMC rebalance script | High | 🔲 PENDING (awaiting Curator research) |
-| Add tech-gated transmutation recipes | High | 🔲 PENDING |
-| Configure ProjectE settings | Medium | 🔲 PENDING |
-| Disable/modify EMC generators | Medium | 🔲 PENDING |
+| Create EMC rebalance script | High | ✅ scripts/projecte_integration.zs |
+| Add tech-gated transmutation recipes | High | ✅ DM/RM/Klein/Watch gated |
+| Configure ProjectE settings | Medium | ✅ custom_emc.json updated |
+| Disable/modify EMC generators | Medium | ✅ MK2/3 gated behind circuits |
 | Exploit validation | High | ⏸️ Deferred to Phase 4 playtest |
 
 ### Balancer Tasks (Deferred to Phase 4 - Comprehensive Playtest)
@@ -320,19 +320,21 @@ recipes.addShaped("dark_matter_tech", <projecte:item.pe_matter>,
 | Verify tech gate feels fair | High | ⏸️ Deferred to Phase 4 |
 | Test Red Matter acquisition | High | ⏸️ Deferred to Phase 4 |
 
-### Milestone: Phase 3 Implementation Complete
-- [ ] EMC values rebalanced
-- [ ] Tech gates implemented
-- [ ] EMC generators configured
-- [ ] Red Matter acquisition gates designed
+### Milestone: Phase 3 Implementation Complete ✅
+- [x] EMC values rebalanced (IC2, Forestry, mob drops, tech rewards)
+- [x] Tech gates implemented (DM→AdvCircuit, RM→DraconicCore, Klein→WyvernCore)
+- [x] EMC generators configured (Collectors/Relays MK2/3 gated)
+- [x] Red Matter acquisition gates designed (requires Draconic Evolution progress)
 - ⏳ **Exploit validation deferred to Phase 4 playtest**
+
+**Completion Date:** Phase 3 Complete - Ready for Phase 4
 
 ---
 
 ## Phase 4: Integration & Comprehensive Playtest
-**Duration:** 2-3 weeks (NOT STARTED)  
+**Duration:** 2-3 weeks (READY TO START)  
 **Lead:** Balancer + Integrator  
-**Status:** Will start after Phase 3 development complete
+**Status:** All Phase 1-3 development complete. Ready when user has playtest time.
 
 ### Purpose
 After all development is complete (Phases 1-3), conduct comprehensive full playthrough from start to end-game, validating balance, progression, and identifying any crashes or logic errors.
@@ -498,16 +500,22 @@ EnergyCraft/
 
 ## Next Actions
 
-### Immediate (This Week)
-1. **Curator:** Start Phase 3 research on ProjectE default EMC values
-2. **Integrator:** Begin Phase 3 implementation of EMC rebalance + tech gates
-3. **Parallel Track:** Continue Better Questing quest creation (10/250 complete)
+### Current Status: Phase 4 Ready
+All development work (Phases 1-3) is complete. Project is ready for comprehensive playtest.
 
-### After Phase 3 Complete
-1. **All Roles:** Begin Phase 4 comprehensive playtest
-2. **Balancer:** Lead playthrough 0→endgame, document findings
-3. **Integrator:** Fix any crashes/errors, implement balance adjustments
-4. **Curator:** Compile findings into player documentation
+### What's Been Completed
+- **Phase 1:** Foundation & Research ✅
+- **Phase 2:** Power Sink Integration ✅ (DE + Environmental Tech scripts)
+- **Phase 3:** ProjectE Integration ✅ (EMC values, tech gates, exploit prevention)
+
+### When You Have Play Time (Phase 4)
+1. **Balancer:** Full playthrough 0→endgame in fresh world
+2. **Integrator:** Fix any crashes/errors found during playtest
+3. **Curator:** Document findings, write player guides
+
+### Parallel Track (Ongoing)
+- Quest book creation: 10/250 quests complete (Era I done)
+- Can continue quest development independent of playtest
 
 ### Decision Points Already Made ✅
 - [x] Mod list frozen at 21 mods (Phase 1 closure)
@@ -515,6 +523,7 @@ EnergyCraft/
 - [x] Mekanism skipped (too powerful)
 - [x] Development-first approach: complete all phases, then comprehensive playtest
 - [x] Full playthrough before release (v1.0 gate)
+- [x] ProjectE tech gates: DM→AdvCircuit, RM→DraconicCore, Klein→WyvernCore
 
 ---
 
@@ -530,4 +539,4 @@ Key topics include:
 
 ---
 
-*Plan Version: 1.1 — February 2, 2026*
+*Plan Version: 1.2 — Updated after Phase 3 completion*
