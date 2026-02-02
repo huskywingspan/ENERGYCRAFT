@@ -24,31 +24,68 @@ This is a **branching era** with three main paths that converge at the end.
 
 ### Item ID Reference (IC2 Classic)
 
-| Item | Registry Name | Notes |
-|------|---------------|-------|
-| Macerator | `ic2:blockmacerator` | |
-| Electric Furnace | `ic2:blockelectricfurnace` | |
-| Extractor | `ic2:blockextractor` | |
-| Compressor | `ic2:blockcompressor` | |
-| Solar Panel | `ic2:blocksolargenerator` | |
-| Water Mill | `ic2:blockwatermill` | |
-| Geothermal Generator | `ic2:blockgeothermal` | |
-| CESU | `ic2:blockcesu` | MV storage |
-| MFE | `ic2:blockmfe` | HV storage |
-| MFSU | `ic2:blockmfsu` | EV storage |
-| Advanced Circuit | `ic2:itempartcircuitadv` | |
-| Induction Furnace | `ic2:blockinductionfurnace` | |
-| Rotary Macerator | `ic2:blockrotarymacerator` | |
-| Singularity Compressor | `ic2:blocksingularitycompressor` | |
-| Centrifuge Extractor | `ic2:blockcentrifugeextractor` | |
-| Energy Crystal | `ic2:itemenergycrystal` | |
-| Lapotron Crystal | `ic2:itemlapotroncrystal` | |
-| Refined Iron | `ic2:itemingot` meta 3 | |
-| Advanced Machine Block | `ic2:blockadvancedmachine` | |
-| Carbon Plate | `ic2:itemcarbonplate` | |
-| Gold Cable | `ic2:itemcable` meta 2 | |
-| HV Cable | `ic2:itemcable` meta 4 | |
-| Glass Fibre Cable | `ic2:itemcable` meta 9 | |
+> ⚠️ **CRITICAL: IC2 Classic uses `ic2:te` namespace for ALL machines!**
+> The IDs below are from Gemini Deep Research Report. **ALWAYS verify with `/ct hand` in-game!**
+> Full reference: `research/IC2_CLASSIC_QUICK_REFERENCE.md`
+
+#### Processing Machines (`ic2:te` namespace)
+
+| Machine | Registry ID | Metadata | Function |
+|---------|-------------|----------|----------|
+| **Macerator** | `<ic2:te:4>` | 4 | Ore → 2x Dust |
+| **Electric Furnace** | `<ic2:te:2>` | 2 | EU smelting |
+| **Compressor** | `<ic2:te:5>` | 5 | Plates, Carbon |
+| **Extractor** | `<ic2:te:6>` | 6 | 3x Rubber |
+| **Induction Furnace** | `<ic2:te:46>` | 46 | Fast dual-smelt |
+| **Recycler** | `<ic2:te:48>` | 48 | Scrap production |
+
+#### Generators (`ic2:te` namespace)
+
+| Generator | Registry ID | Output |
+|-----------|-------------|--------|
+| **Solar Panel** | `<ic2:te:8>` | 1 EU/t (verify - may share ID) |
+| **Water Mill** | `<ic2:te:9>` | Variable |
+| **Geothermal** | `<ic2:te:8>` | 20 EU/t (verify) |
+| **Nuclear Reactor** | `<ic2:te:22>` | Variable |
+
+#### Energy Storage (`ic2:te` namespace)
+
+| Storage | Registry ID | Capacity | Max EU/t |
+|---------|-------------|----------|----------|
+| **BatBox** | `<ic2:te:72>` | 40k EU | 32 (LV) |
+| **MFE** | `<ic2:te:73>` | 600k EU | 128 (MV) |
+| **MFSU** | `<ic2:te:74>` | 10M EU | 512 (HV) |
+
+#### Transformers (`ic2:te` namespace)
+
+| Transformer | Registry ID | Conversion |
+|-------------|-------------|------------|
+| **LV Transformer** | `<ic2:te:77>` | 32 ↔ 128 EU |
+| **MV Transformer** | `<ic2:te:78>` | 128 ↔ 512 EU |
+| **HV Transformer** | `<ic2:te:79>` | 512 ↔ 2048 EU |
+
+#### Crafting Components
+
+| Item | Registry ID | Notes |
+|------|-------------|-------|
+| Electronic Circuit | `<ic2:itemcrafting:1>` | Basic circuits |
+| Advanced Circuit | `<ic2:itemcrafting:2>` | Advanced circuits |
+| Machine Casing | `<ic2:resource:1>` | Basic machine block |
+| Adv Machine Casing | `<ic2:resource:13>` | Advanced machines |
+| Refined Iron | `<ic2:itemingot:3>` | Meta 3 |
+| Energy Crystal | `<ic2:itemenergycrystal>` | MFE component |
+| Lapotron Crystal | `<ic2:itemlapotroncrystal>` | MFSU component |
+| Carbon Plate | `<ic2:itemcarbonplate>` | Advanced recipes |
+| Gold Cable | `<ic2:itemcable:2>` | MV cable |
+| HV Cable | `<ic2:itemcable:4>` | HV cable |
+| Glass Fibre Cable | `<ic2:itemcable:9>` | Best cable |
+
+#### Verification Workflow
+```
+1. /ct hand - Get exact ID of held item
+2. Check logs/crafttweaker.log for registry name
+3. Update quest tasks/rewards with verified ID
+```
 
 ---
 

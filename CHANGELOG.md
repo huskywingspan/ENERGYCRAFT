@@ -39,6 +39,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
     - ERA III COMPLETE gateway
   - Visual quest layout with branching paths
 
+### Changed
+- **Draconic Evolution Balance** - Armor shield nerfs to prevent invincibility
+  - Draconic Shield Capacity: 512 → 128 (4x reduction)
+  - Wyvern Shield Capacity: 256 → 32 (8x reduction)
+  - Draconic RF Capacity: 16M → 1.6M (10x reduction)
+  - Draconic Shield Recharge Cost: 1000 → 10000 (10x increase)
+  - Wyvern Shield Recharge Cost: 1000 → 5000 (5x increase)
+  - Flight Speed Modifier: 1.0 → 1.5 cap (prevents chunk lag)
+  - Combat now requires strategy instead of face-tanking
+
+- **Environmental Tech Balance** - Power economy preservation
+  - Void Ore Miner power cost: 4x multiplier across all tiers
+  - Void Ore Miner buffers: Increased 4x to match power draw
+  - Solar Cell efficiency: 50% nerf across all tiers
+  - Keeps IC2/BC power sources relevant longer
+
 - **Era II: Bronze Age Quest Line** - 15 quests (IDs 10-24)
   - Copper & Tin mining introduction
   - Rubber tree harvesting and processing
