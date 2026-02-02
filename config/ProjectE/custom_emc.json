@@ -137,6 +137,127 @@
       "__comment": "Awakened Core - NO EMC (requires Chaos Guardian)",
       "item": "draconicevolution:awakened_core",
       "emc": 0
+    },
+    {
+      "__comment": "--- ENVIRONMENTAL TECH EMC VALUES ---"
+    },
+    {
+      "__comment": "Litherite Crystal - Base tier",
+      "item": "environmentaltech:litherite_crystal",
+      "emc": 4096
+    },
+    {
+      "__comment": "Erodium Crystal - Tier 2",
+      "item": "environmentaltech:erodium_crystal",
+      "emc": 8192
+    },
+    {
+      "__comment": "Kyronite Crystal - Tier 3",
+      "item": "environmentaltech:kyronite_crystal",
+      "emc": 16384
+    },
+    {
+      "__comment": "Pladium Crystal - Tier 4",
+      "item": "environmentaltech:pladium_crystal",
+      "emc": 32768
+    },
+    {
+      "__comment": "Ionite Crystal - Tier 5",
+      "item": "environmentaltech:ionite_crystal",
+      "emc": 65536
+    },
+    {
+      "__comment": "Aethium Crystal - Tier 6, NO EMC (end-game)",
+      "item": "environmentaltech:aethium_crystal",
+      "emc": 0
+    },
+    {
+      "__comment": "Void Miner Controllers - NO EMC (prevent exploits)",
+      "item": "environmentaltech:void_ore_miner_cont_1",
+      "emc": 0
+    },
+    {
+      "__comment": "Void Miner T2-6 and Resource Miners - NO EMC",
+      "item": "environmentaltech:void_ore_miner_cont_2",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_ore_miner_cont_3",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_ore_miner_cont_4",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_ore_miner_cont_5",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_ore_miner_cont_6",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_res_miner_cont_1",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_res_miner_cont_2",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_res_miner_cont_3",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_res_miner_cont_4",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_res_miner_cont_5",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:void_res_miner_cont_6",
+      "emc": 0
+    },
+    {
+      "__comment": "Solar Controllers - NO EMC",
+      "item": "environmentaltech:solar_cont_1",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:solar_cont_2",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:solar_cont_3",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:solar_cont_4",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:solar_cont_5",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:solar_cont_6",
+      "emc": 0
+    },
+    {
+      "__comment": "Modifiers - NO EMC (encourage crafting)",
+      "item": "environmentaltech:modifier_null",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:modifier_speed",
+      "emc": 0
+    },
+    {
+      "item": "environmentaltech:modifier_luck",
+      "emc": 0
     }
   ],
   "__comment": "Use the in-game commands to edit this file"

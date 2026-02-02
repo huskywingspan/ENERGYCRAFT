@@ -26,6 +26,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Energy Pylon requires BuildCraft Diamond Gear
   - Reactor components require EV-tier tech + Glass Fibre Cable
   - Dislocator requires basic circuit (QoL teleportation)
+
+- **Environmental Tech Integration** - Void miners as late-game power sinks
+  - CraftTweaker script: `scripts/environmental_tech.zs`
+  - **Void Ore Miners:** Tier progression gated behind tech:
+    - T1-2: IC2 Advanced Circuits + BuildCraft Diamond Gear
+    - T3-4: Draconium + Draconic Cores
+    - T5-6: Awakened Draconium + Chaos Shards
+  - **Void Resource Miners:** Same gating structure
+  - **Solar Arrays:** T1-2 disabled, T3+ requires Draconic Evolution
+  - **Lightning Rod:** Light gating (fun, weather-dependent)
+  - **Nanobot Beacon:** Light gating (QoL feature)
+  - **Crystal Progression:** Each tier requires previous + tech components
   
 ### Configuration Pending
 - **Draconic Evolution config** - Requires mod installation first
@@ -50,6 +62,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Awakened Core: NO EMC (requires Chaos Guardian)
 - Draconic Core: 16,384 EMC
 - Wyvern Core: 65,536 EMC
+- **Environmental Tech Crystals:**
+  - Litherite: 4,096 EMC
+  - Erodium: 8,192 EMC
+  - Kyronite: 16,384 EMC
+  - Pladium: 32,768 EMC
+  - Ionite: 65,536 EMC
+  - Aethium: NO EMC (end-game)
+- **All Void Miner/Solar Controllers:** NO EMC (prevent exploits)
 
 ---
 
