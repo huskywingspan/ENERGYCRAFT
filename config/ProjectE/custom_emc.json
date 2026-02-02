@@ -258,6 +258,154 @@
     {
       "item": "environmentaltech:modifier_luck",
       "emc": 0
+    },
+    {
+      "__comment": "--- IC2 CLASSIC EXPLOIT PREVENTION ---"
+    },
+    {
+      "__comment": "Scrap - NO EMC (prevent recycler loop)",
+      "item": "ic2:itemscrap",
+      "emc": 0
+    },
+    {
+      "__comment": "Scrapbox - NO EMC (prevent recycler loop)",
+      "item": "ic2:itemscrapbox",
+      "emc": 0
+    },
+    {
+      "__comment": "UU-Matter - NO EMC (force crafting, not transmutation)",
+      "item": "ic2:itemuumatter",
+      "emc": 0
+    },
+    {
+      "__comment": "--- FORESTRY BEE PRODUCT EXPLOIT PREVENTION ---"
+    },
+    {
+      "__comment": "Beeswax - NO EMC (passive generation)",
+      "item": "forestry:beeswax",
+      "emc": 0
+    },
+    {
+      "__comment": "Honey Drop - NO EMC (passive generation)",
+      "item": "forestry:honey_drop",
+      "emc": 0
+    },
+    {
+      "__comment": "Honeydew - NO EMC (passive generation)",
+      "item": "forestry:honeydew",
+      "emc": 0
+    },
+    {
+      "__comment": "Royal Jelly - NO EMC (passive generation)",
+      "item": "forestry:royal_jelly",
+      "emc": 0
+    },
+    {
+      "__comment": "Pollen (Normal) - NO EMC",
+      "item": "forestry:pollen@0",
+      "emc": 0
+    },
+    {
+      "__comment": "Pollen (Crystalline) - NO EMC",
+      "item": "forestry:pollen@1",
+      "emc": 0
+    },
+    {
+      "__comment": "Propolis - NO EMC (passive generation)",
+      "item": "forestry:propolis",
+      "emc": 0
+    },
+    {
+      "__comment": "Honey Combs - NO EMC (all types)",
+      "item": "forestry:bee_combs",
+      "emc": 0
+    },
+    {
+      "__comment": "--- MOB FARM OUTPUT REDUCTION ---"
+    },
+    {
+      "__comment": "Blaze Rod - Reduced (easy to farm)",
+      "item": "minecraft:blaze_rod",
+      "emc": 512
+    },
+    {
+      "__comment": "Ender Pearl - Reduced (enderman farms trivial)",
+      "item": "minecraft:ender_pearl",
+      "emc": 256
+    },
+    {
+      "__comment": "Ghast Tear - Reduced (farmable with effort)",
+      "item": "minecraft:ghast_tear",
+      "emc": 1024
+    },
+    {
+      "__comment": "Nether Star - Keep high but not exploitable",
+      "item": "minecraft:nether_star",
+      "emc": 32768
+    },
+    {
+      "__comment": "--- IC2 TECH ITEM REWARDS ---"
+    },
+    {
+      "__comment": "Electronic Circuit - Reward tech crafting",
+      "item": "ic2:itempartcircuit",
+      "emc": 1024
+    },
+    {
+      "__comment": "Advanced Circuit - Reward complex crafting",
+      "item": "ic2:itempartcircuitadv",
+      "emc": 4096
+    },
+    {
+      "__comment": "Copper Cable - Basic wiring",
+      "item": "ic2:itemcable@0",
+      "emc": 64
+    },
+    {
+      "__comment": "Gold Cable - Better wiring",
+      "item": "ic2:itemcable@3",
+      "emc": 256
+    },
+    {
+      "__comment": "Glass Fibre Cable - Premium wiring",
+      "item": "ic2:itemcable@9",
+      "emc": 512
+    },
+    {
+      "__comment": "--- BUILDCRAFT TECH ITEM REWARDS ---"
+    },
+    {
+      "__comment": "Iron Gear - Reward manufacturing",
+      "item": "buildcraftcore:gear_iron",
+      "emc": 256
+    },
+    {
+      "__comment": "Gold Gear - Reward manufacturing",
+      "item": "buildcraftcore:gear_gold",
+      "emc": 1024
+    },
+    {
+      "__comment": "Diamond Gear - Reward late manufacturing",
+      "item": "buildcraftcore:gear_diamond",
+      "emc": 2048
+    },
+    {
+      "__comment": "--- PROJECT RED TECH ITEM REWARDS ---"
+    },
+    {
+      "__comment": "Silicon Chip - Reward electronics",
+      "item": "projectred-core:resource_item@301",
+      "emc": 512
+    },
+    {
+      "__comment": "Red Alloy Ingot - Reward alloy crafting",
+      "item": "projectred-core:resource_item@103",
+      "emc": 256
+    },
+    {
+      "__comment": "Electrotine Alloy Ingot - Reward advanced alloy",
+      "item": "projectred-core:resource_item@104",
+      "emc": 512
     }
   ],
   "__comment": "Use the in-game commands to edit this file"

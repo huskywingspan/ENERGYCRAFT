@@ -9,6 +9,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
+- **ProjectE Integration** - Tech-gated transmutation progression
+  - CraftTweaker script: `scripts/projecte_integration.zs`
+  - **Dark Matter** gated behind IC2 Advanced Circuits
+  - **Red Matter** gated behind Draconic Cores (late-game)
+  - **Klein Star Omega** gated behind Wyvern Cores (end-game)
+  - **Watch of Flowing Time** gated (Advanced Circuit + Diamond Gear)
+  - **Collectors/Relays MK2+** require circuits
+  - **Condenser MK2** requires Advanced Circuit + Glass Fibre
+
+- **EMC Exploit Prevention** (custom_emc.json updates)
+  - IC2 Scrap, Scrapbox, UU-Matter = 0 EMC (prevent recycler loop)
+  - Forestry bee products = 0 EMC (beeswax, honey, propolis, combs)
+  - Mob farm outputs reduced (Blaze Rod 512, Ender Pearl 256, Ghast Tear 1024)
+
+- **Tech Item EMC Rewards** (reward crafting investment)
+  - IC2 Electronic Circuit = 1024 EMC
+  - IC2 Advanced Circuit = 4096 EMC
+  - BuildCraft Gears: Iron 256, Gold 1024, Diamond 2048 EMC
+  - Project Red Silicon Chip = 512 EMC
+  - IC2 Glass Fibre Cable = 512 EMC
+
 - **Modpack Distribution System**
   - `setup.ps1` - Automated mod download script (fetches from GitHub Releases)
   - `tools/package-mods.ps1` - Packages mods into distributable archive
