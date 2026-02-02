@@ -1,0 +1,82 @@
+# EnergyCraft Modpack - Git Ignore
+# Track: configs, scripts, documentation
+# Ignore: binaries, saves, logs, caches
+
+# ===================
+# MOD JARS (large binaries - can be re-downloaded)
+# ===================
+mods/*.jar
+mods/**/*.jar
+
+# ===================
+# WORLD SAVES (personal, large)
+# ===================
+saves/
+backups/
+
+# ===================
+# LOGS & CRASH REPORTS
+# ===================
+logs/
+crash-reports/
+hs_err_pid*.log
+
+# ===================
+# RESOURCE PACKS & SHADERS (optional, can be large)
+# ===================
+resourcepacks/
+shaderpacks/
+
+# ===================
+# SCREENSHOTS
+# ===================
+screenshots/
+
+# ===================
+# CACHE & RUNTIME FILES
+# ===================
+.mixin.out/
+local/
+*.lck
+replay_recordings/
+journeymap/
+XaeroWaypoints/
+XaeroWaypoints_BACKUP*/
+XaeroWorldMap/
+xaero/
+crafttweaker.log
+*.log
+
+# ===================
+# CURSEFORGE/LAUNCHER FILES
+# ===================
+minecraftinstance.json
+manifest.json
+modlist.html
+usercache.json
+usernamecache.json
+options.txt
+servers.dat
+realms_persistence.json
+
+# ===================
+# OS & EDITOR FILES
+# ===================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ===================
+# KEEP THESE (explicit)
+# ===================
+# !config/
+# !scripts/
+# !research/
+# !.github/
+# !CHANGELOG.md
+# !VISION_ENERGYCRAFT.md
+# !DESIGN_DOCUMENT.md
+# !PROJECT_PLAN.md
+# !README.md

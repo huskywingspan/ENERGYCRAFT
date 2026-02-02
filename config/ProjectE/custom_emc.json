@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "__comment": "Energy Bridge - Central block for energy conversion",
+      "item": "energyconverters:energy_bridge",
+      "emc": 8192
+    },
+    {
+      "__comment": "LV EU Consumer (Tier 1)",
+      "item": "energyconverters:energy_consumer_eu@0",
+      "emc": 4096
+    },
+    {
+      "__comment": "MV EU Consumer (Tier 2)",
+      "item": "energyconverters:energy_consumer_eu@1",
+      "emc": 8192
+    },
+    {
+      "__comment": "HV EU Consumer (Tier 3)",
+      "item": "energyconverters:energy_consumer_eu@2",
+      "emc": 16384
+    },
+    {
+      "__comment": "EV EU Consumer (Tier 4)",
+      "item": "energyconverters:energy_consumer_eu@3",
+      "emc": 32768
+    },
+    {
+      "__comment": "IV EU Consumer (Tier 5)",
+      "item": "energyconverters:energy_consumer_eu@4",
+      "emc": 65536
+    },
+    {
+      "__comment": "LV EU Producer (Tier 1)",
+      "item": "energyconverters:energy_producer_eu@0",
+      "emc": 4096
+    },
+    {
+      "__comment": "MV EU Producer (Tier 2)",
+      "item": "energyconverters:energy_producer_eu@1",
+      "emc": 8192
+    },
+    {
+      "__comment": "HV EU Producer (Tier 3)",
+      "item": "energyconverters:energy_producer_eu@2",
+      "emc": 16384
+    },
+    {
+      "__comment": "EV EU Producer (Tier 4)",
+      "item": "energyconverters:energy_producer_eu@3",
+      "emc": 32768
+    },
+    {
+      "__comment": "IV EU Producer (Tier 5)",
+      "item": "energyconverters:energy_producer_eu@4",
+      "emc": 65536
+    },
+    {
+      "__comment": "FE Consumer",
+      "item": "energyconverters:energy_consumer_fe",
+      "emc": 4096
+    },
+    {
+      "__comment": "FE Producer",
+      "item": "energyconverters:energy_producer_fe",
+      "emc": 4096
+    },
+    {
+      "__comment": "RF Consumer",
+      "item": "energyconverters:energy_consumer_rf",
+      "emc": 4096
+    },
+    {
+      "__comment": "RF Producer",
+      "item": "energyconverters:energy_producer_rf",
+      "emc": 4096
+    },
+    {
+      "__comment": "MJ Consumer",
+      "item": "energyconverters:energy_consumer_mj",
+      "emc": 4096
+    },
+    {
+      "__comment": "MJ Producer",
+      "item": "energyconverters:energy_producer_mj",
+      "emc": 4096
+    }
+  ],
+  "__comment": "Use the in-game commands to edit this file"
+}
