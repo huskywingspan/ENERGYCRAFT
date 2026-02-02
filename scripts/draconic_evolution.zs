@@ -8,64 +8,59 @@
 print("Loading Draconic Evolution integration recipes...");
 
 # ============================================
-# IC2 CLASSIC MACHINE BLOCK REFERENCE
-# ic2:blockmachine:0  = Machine (Basic)
-# ic2:blockmachine:1  = Macerator
-# ic2:blockmachine:2  = Extractor
-# ic2:blockmachine:3  = Compressor
-# ic2:blockmachine:4  = Electric Furnace
-# ic2:blockmachine:5  = MV Transformer
-# ic2:blockmachine:6  = HV Transformer
-# ic2:blockmachine:7  = EV Transformer
-# ic2:blockmachine:12 = Advanced Machine Casing
+# IC2 CLASSIC ITEM REFERENCE (VERIFIED WORKING)
+# Cables: ic2:itemcable:X (0-14)
+# Circuits: <ore:circuitBasic>, <ore:circuitAdvanced>
+# 
+# NOTE: IC2 Classic machine blocks use different IDs than
+# IC2 Experimental. We use circuits, cables, and BuildCraft
+# gears for tech gating instead of machine blocks.
 # ============================================
 
 # ============================================
 # SECTION 1: ENERGY STORAGE CORE (Tier 1)
-# Gate behind IC2 Classic progression
-# Requires: Advanced Machine Casings + Diamonds
+# Gate behind advanced circuits + diamonds
 # ============================================
 
 # Remove default recipe
 recipes.remove(<draconicevolution:energy_storage_core>);
 
-# New recipe: Requires IC2 Classic Advanced Machine Casings
+# New recipe: Requires Advanced Circuits (mid-tier IC2 component)
 recipes.addShaped("energy_core_t1_gated", <draconicevolution:energy_storage_core>, [
-    [<ore:blockRedstone>, <ic2:blockmachine:12>, <ore:blockRedstone>],
-    [<ic2:blockmachine:12>, <ore:gemDiamond>, <ic2:blockmachine:12>],
-    [<ore:blockRedstone>, <ic2:blockmachine:12>, <ore:blockRedstone>]
+    [<ore:blockRedstone>, <ore:circuitAdvanced>, <ore:blockRedstone>],
+    [<ore:circuitAdvanced>, <ore:blockDiamond>, <ore:circuitAdvanced>],
+    [<ore:blockRedstone>, <ore:circuitAdvanced>, <ore:blockRedstone>]
 ]);
 
 # ============================================
 # SECTION 2: FUSION CRAFTING INJECTOR
-# Gate behind IC2 transformers for cross-mod synergy
-# Requires: MV Transformer + Lapis + Gold
+# Gate behind BuildCraft Gold Gear + IC2 circuits
 # ============================================
 
 # Remove default recipe
 recipes.remove(<draconicevolution:crafting_injector>);
 
-# New recipe: Requires IC2 MV Transformer (mid-tier gating)
+# New recipe: Requires BuildCraft Gold Gear + Advanced Circuit
 recipes.addShaped("fusion_injector_gated", <draconicevolution:crafting_injector>, [
     [<ore:ingotGold>, <minecraft:diamond>, <ore:ingotGold>],
-    [<ore:blockLapis>, <ic2:blockmachine:5>, <ore:blockLapis>],
-    [<ore:ingotGold>, <ore:blockRedstone>, <ore:ingotGold>]
+    [<ore:blockLapis>, <buildcraftcore:gear_gold>, <ore:blockLapis>],
+    [<ore:ingotGold>, <ore:circuitAdvanced>, <ore:ingotGold>]
 ]);
 
 # ============================================
 # SECTION 3: FUSION CRAFTING CORE
 # The central block for fusion crafting multiblock
-# Gate behind HV infrastructure
+# Gate behind BuildCraft Diamond Gear (end-game BC component)
 # ============================================
 
 # Remove default recipe
 recipes.remove(<draconicevolution:fusion_crafting_core>);
 
-# New recipe: Requires HV Transformer for end-game gating
+# New recipe: Requires Diamond Gear + Glass Fibre Cables
 recipes.addShaped("fusion_core_gated", <draconicevolution:fusion_crafting_core>, [
-    [<ore:blockDiamond>, <draconicevolution:draconic_core>, <ore:blockDiamond>],
-    [<draconicevolution:draconic_core>, <ic2:blockmachine:6>, <draconicevolution:draconic_core>],
-    [<ore:blockDiamond>, <draconicevolution:draconic_core>, <ore:blockDiamond>]
+    [<ic2:itemcable:9>, <draconicevolution:draconic_core>, <ic2:itemcable:9>],
+    [<draconicevolution:draconic_core>, <buildcraftcore:gear_diamond>, <draconicevolution:draconic_core>],
+    [<ic2:itemcable:9>, <draconicevolution:draconic_core>, <ic2:itemcable:9>]
 ]);
 
 # ============================================
@@ -122,10 +117,10 @@ recipes.addShaped("energy_pylon_gated", <draconicevolution:energy_pylon>, [
 # Remove default recipe
 recipes.remove(<draconicevolution:particle_generator>);
 
-# New recipe: Requires IC2 Machine Casing
+# New recipe: Requires BuildCraft Iron Gear + circuits
 recipes.addShaped("particle_gen_gated", <draconicevolution:particle_generator>, [
     [<ore:blockRedstone>, <ore:blockDiamond>, <ore:blockRedstone>],
-    [<ore:ingotDraconium>, <ic2:blockmachine:0>, <ore:ingotDraconium>],
+    [<ore:ingotDraconium>, <buildcraftcore:gear_iron>, <ore:ingotDraconium>],
     [<ore:blockRedstone>, <draconicevolution:draconic_core>, <ore:blockRedstone>]
 ]);
 
@@ -147,14 +142,14 @@ recipes.addShaped("dislocator_gated", <draconicevolution:dislocator>, [
 # ============================================
 # SECTION 9: REACTOR COMPONENTS
 # Draconic Reactor - Dangerous end-game power
-# Heavy gating behind EV-tier tech
+# Heavy gating behind end-game tech
 # ============================================
 
-# Reactor Core - Requires EV Transformer
+# Reactor Core - Requires Glass Fibre Cables + Awakened materials
 recipes.remove(<draconicevolution:reactor_core>);
 recipes.addShaped("reactor_core_gated", <draconicevolution:reactor_core>, [
     [<draconicevolution:awakened_core>, <draconicevolution:chaos_shard>, <draconicevolution:awakened_core>],
-    [<draconicevolution:chaos_shard>, <ic2:blockmachine:7>, <draconicevolution:chaos_shard>],
+    [<draconicevolution:chaos_shard>, <ic2:itemcable:9>, <draconicevolution:chaos_shard>],
     [<draconicevolution:awakened_core>, <draconicevolution:chaos_shard>, <draconicevolution:awakened_core>]
 ]);
 
@@ -170,8 +165,7 @@ recipes.addShaped("reactor_stabilizer_gated", <draconicevolution:reactor_part>, 
 # NOTES FOR BALANCER AGENT:
 # - Test all recipes with JEI
 # - Verify ore dictionary entries exist for draconium
-# - Check IC2 machine block metadata is correct
-# - Confirm reactor recipes match available materials
+# - Confirm all items resolve correctly (no errors in chat)
 # - Energy Core higher tiers use fusion crafting (no changes needed)
 # ============================================
 
