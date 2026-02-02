@@ -9,6 +9,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
+- **Better Questing System** - Quest book progression implemented
+  - Better Questing 3.5.312 + Standard Expansion 3.4.167 + Quest Book 3.1.1
+  - Era I: Stone Age (10 quests) fully implemented programmatically
+  - `config/betterquesting/DefaultQuests.json` - Quest database
+  - `docs/QUEST_DESIGN.md` - Full quest framework (9 eras, ~240 quests)
+  - `docs/quests/ERA_I_IMPLEMENTATION.md` - Implementation guide
+  - Quest book spawns with new players (questbook.cfg)
+
 - **Draconic Evolution Integration** - End-game power sink and boss content
   - CraftTweaker script: `scripts/draconic_evolution.zs`
   - Energy Storage Core gated behind IC2 Advanced Machine Casings
@@ -24,6 +32,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Mob Grinder: DISABLE
   - Chaos Guardian health: 3x multiplier
   - Armor mining speed boost: DISABLE (if available)
+
+### Configuration (IC2 Classic Balance)
+- **UU-Matter Production:** Now requires scrap amplifier (`UUNeedsScrap=true`)
+  - Adds meaningful resource loop to late-game replication
+  - +5 progress per amplifier used
+- **Uranium Enrichment:** Harder processing enabled (`enableHardEnrichedUran=true`)
+  - Gates nuclear power behind more infrastructure
+  - Aligns with Era V (Nuclear Era) progression
 
 ### EMC Values (ProjectE)
 - Draconium Ore/Ingot: 8,192 EMC
