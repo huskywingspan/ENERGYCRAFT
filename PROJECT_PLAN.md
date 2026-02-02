@@ -481,4 +481,16 @@ EnergyCraft/
 
 ---
 
-*Plan Version: 1.0 — February 2, 2026*
+## Future Ideas
+
+Ideas captured during development are tracked in [`docs/FUTURE_IDEAS.md`](docs/FUTURE_IDEAS.md).
+
+Key topics include:
+- Project Red Transportation (RedPower tubes successor)
+- Quest book implementation plan
+- Mod candidates for future versions
+- Balance and gating philosophy
+
+---
+
+*Plan Version: 1.1 — February 2, 2026*
