@@ -84,6 +84,59 @@
       "__comment": "MJ Producer",
       "item": "energyconverters:energy_producer_mj",
       "emc": 4096
+    },
+    {
+      "__comment": "--- DRACONIC EVOLUTION EMC VALUES ---"
+    },
+    {
+      "__comment": "Draconium Ore - End resource, valuable",
+      "item": "draconicevolution:draconium_ore",
+      "emc": 8192
+    },
+    {
+      "__comment": "Draconium Ingot - Processed ore",
+      "item": "draconicevolution:draconium_ingot",
+      "emc": 8192
+    },
+    {
+      "__comment": "Draconium Block - 9x ingot value",
+      "item": "draconicevolution:draconium_block",
+      "emc": 73728
+    },
+    {
+      "__comment": "Dragon Heart - Boss drop, high EMC reward",
+      "item": "draconicevolution:dragon_heart",
+      "emc": 1000000
+    },
+    {
+      "__comment": "Chaos Shard - NO EMC (prevent exploit)",
+      "item": "draconicevolution:chaos_shard",
+      "emc": 0
+    },
+    {
+      "__comment": "Awakened Draconium Ingot - NO EMC (fusion craft only)",
+      "item": "draconicevolution:awakened_draconium_ingot",
+      "emc": 0
+    },
+    {
+      "__comment": "Awakened Draconium Block - NO EMC",
+      "item": "draconicevolution:awakened_draconium_block",
+      "emc": 0
+    },
+    {
+      "__comment": "Draconic Core - Crafted component",
+      "item": "draconicevolution:draconic_core",
+      "emc": 16384
+    },
+    {
+      "__comment": "Wyvern Core - Mid-tier component",
+      "item": "draconicevolution:wyvern_core",
+      "emc": 65536
+    },
+    {
+      "__comment": "Awakened Core - NO EMC (requires Chaos Guardian)",
+      "item": "draconicevolution:awakened_core",
+      "emc": 0
     }
   ],
   "__comment": "Use the in-game commands to edit this file"

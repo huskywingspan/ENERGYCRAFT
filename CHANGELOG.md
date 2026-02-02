@@ -8,6 +8,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Added
+- **Draconic Evolution Integration** - End-game power sink and boss content
+  - CraftTweaker script: `scripts/draconic_evolution.zs`
+  - Energy Storage Core gated behind IC2 Advanced Machine Casings
+  - Fusion Crafting Injector requires IC2 MV Transformer
+  - Fusion Crafting Core requires IC2 HV Transformer
+  - Draconic/Wyvern Cores require IC2 circuits
+  - Energy Pylon requires BuildCraft Diamond Gear
+  - Reactor components require EV-tier tech + Glass Fibre Cable
+  - Dislocator requires basic circuit (QoL teleportation)
+  
+### Configuration Pending
+- **Draconic Evolution config** - Requires mod installation first
+  - Mob Grinder: DISABLE
+  - Chaos Guardian health: 3x multiplier
+  - Armor mining speed boost: DISABLE (if available)
+
+### EMC Values (ProjectE)
+- Draconium Ore/Ingot: 8,192 EMC
+- Draconium Block: 73,728 EMC
+- Dragon Heart: 1,000,000 EMC (boss reward)
+- Chaos Shard: NO EMC (prevent exploits)
+- Awakened Draconium: NO EMC (fusion craft only)
+- Awakened Core: NO EMC (requires Chaos Guardian)
+- Draconic Core: 16,384 EMC
+- Wyvern Core: 65,536 EMC
+
+---
+
 ### Research Completed (Phase 1)
 - **Draconic Evolution** - Full evaluation completed ([research/draconic_evolution_evaluation.md](research/draconic_evolution_evaluation.md))
   - Recommendation: Add with heavy configuration
