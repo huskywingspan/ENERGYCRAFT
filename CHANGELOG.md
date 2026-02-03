@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Fixed
+- **Quest Item ID Corrections** - IC2 Classic uses different registry than expected
+  - Updated Era II core quest IDs (Generator, BatBox, Macerator, E-Furnace)
+  - Changed from `ic2:blockmacerator` style to correct `ic2:te` with metadata
+  - Fixed Quests 19, 22, 23, 24, 25, 26, 28, 48 and Era III line icon
+  - Remaining Era III quest IDs documented in Integrator handoff
+
 ### Added
 - **Era III: Industrial Age Quest Line** - 24 quests (IDs 25-48)
   - Three-branch progression structure converging at Advanced Machines

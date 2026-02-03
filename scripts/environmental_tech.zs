@@ -170,29 +170,69 @@ recipes.addShaped("et_solar_t6", <environmentaltech:solar_cont_6>, [
 ]);
 
 # ============================================
-# SECTION 4: LIGHTNING ROD
+# SECTION 4: LIGHTNING ROD CONTROLLERS
 # Keep accessible - Fun, weather-dependent, not OP
-# Light gating for thematic consistency
+# ET 2.0 uses tiered controllers: lightning_cont_1 through lightning_cont_6
 # ============================================
 
-recipes.remove(<environmentaltech:lightning_cont>);
-recipes.addShaped("et_lightning_rod", <environmentaltech:lightning_cont>, [
+# --- Tier 1: Entry level lightning harvesting ---
+recipes.remove(<environmentaltech:lightning_cont_1>);
+recipes.addShaped("et_lightning_t1", <environmentaltech:lightning_cont_1>, [
     [<minecraft:iron_bars>, <environmentaltech:litherite_crystal>, <minecraft:iron_bars>],
     [<ore:circuitAdvanced>, <buildcraftcore:gear_iron>, <ore:circuitAdvanced>],
     [<ore:blockIron>, <ore:blockRedstone>, <ore:blockIron>]
 ]);
 
+# --- Tier 2: Improved lightning harvesting ---
+recipes.remove(<environmentaltech:lightning_cont_2>);
+recipes.addShaped("et_lightning_t2", <environmentaltech:lightning_cont_2>, [
+    [<environmentaltech:erodium_crystal>, <minecraft:iron_bars>, <environmentaltech:erodium_crystal>],
+    [<ore:circuitAdvanced>, <environmentaltech:lightning_cont_1>, <ore:circuitAdvanced>],
+    [<ore:blockGold>, <ore:blockRedstone>, <ore:blockGold>]
+]);
+
+# --- Tier 3+: Progressive gating ---
+recipes.remove(<environmentaltech:lightning_cont_3>);
+recipes.addShaped("et_lightning_t3", <environmentaltech:lightning_cont_3>, [
+    [<environmentaltech:kyronite_crystal>, <minecraft:iron_bars>, <environmentaltech:kyronite_crystal>],
+    [<ore:circuitAdvanced>, <environmentaltech:lightning_cont_2>, <ore:circuitAdvanced>],
+    [<ore:blockDiamond>, <ore:blockRedstone>, <ore:blockDiamond>]
+]);
+
+recipes.remove(<environmentaltech:lightning_cont_4>);
+recipes.addShaped("et_lightning_t4", <environmentaltech:lightning_cont_4>, [
+    [<environmentaltech:pladium_crystal>, <minecraft:iron_bars>, <environmentaltech:pladium_crystal>],
+    [<ore:ingotDraconium>, <environmentaltech:lightning_cont_3>, <ore:ingotDraconium>],
+    [<ore:blockEmerald>, <ore:blockRedstone>, <ore:blockEmerald>]
+]);
+
+recipes.remove(<environmentaltech:lightning_cont_5>);
+recipes.addShaped("et_lightning_t5", <environmentaltech:lightning_cont_5>, [
+    [<environmentaltech:ionite_crystal>, <minecraft:iron_bars>, <environmentaltech:ionite_crystal>],
+    [<draconicevolution:draconic_core>, <environmentaltech:lightning_cont_4>, <draconicevolution:draconic_core>],
+    [<ore:blockDraconium>, <ore:blockRedstone>, <ore:blockDraconium>]
+]);
+
+recipes.remove(<environmentaltech:lightning_cont_6>);
+recipes.addShaped("et_lightning_t6", <environmentaltech:lightning_cont_6>, [
+    [<environmentaltech:aethium_crystal>, <minecraft:iron_bars>, <environmentaltech:aethium_crystal>],
+    [<draconicevolution:wyvern_core>, <environmentaltech:lightning_cont_5>, <draconicevolution:wyvern_core>],
+    [<ore:blockDraconiumAwakened>, <ore:blockRedstone>, <ore:blockDraconiumAwakened>]
+]);
+
 # ============================================
-# SECTION 5: NANOBOT BEACON
-# QoL feature - Light gating only
+# SECTION 5: NANOBOT BEACON (DISABLED)
+# NOTE: nano_cont_personal does not exist in Environmental Tech 2.0.x
+# The Personal Nanobot Beacon was likely removed or renamed in this version.
+# Leaving this section commented out for reference.
 # ============================================
 
-recipes.remove(<environmentaltech:nano_cont_personal>);
-recipes.addShaped("et_nano_personal", <environmentaltech:nano_cont_personal>, [
-    [<ore:circuitBasic>, <environmentaltech:litherite_crystal>, <ore:circuitBasic>],
-    [<environmentaltech:litherite_crystal>, <minecraft:beacon>, <environmentaltech:litherite_crystal>],
-    [<ore:circuitBasic>, <environmentaltech:litherite_crystal>, <ore:circuitBasic>]
-]);
+# recipes.remove(<environmentaltech:nano_cont_personal>);
+# recipes.addShaped("et_nano_personal", <environmentaltech:nano_cont_personal>, [
+#     [<ore:circuitBasic>, <environmentaltech:litherite_crystal>, <ore:circuitBasic>],
+#     [<environmentaltech:litherite_crystal>, <minecraft:beacon>, <environmentaltech:litherite_crystal>],
+#     [<ore:circuitBasic>, <environmentaltech:litherite_crystal>, <ore:circuitBasic>]
+# ]);
 
 # ============================================
 # SECTION 6: CRYSTAL CRAFTING
