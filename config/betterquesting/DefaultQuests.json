@@ -5640,6 +5640,160 @@
         }
       },
       "order:3": 2
+    },
+    "3:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 32,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 49,
+          "sizeY:3": 32
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 48,
+          "id:3": 50,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 96,
+          "id:3": 51,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": 160,
+          "id:3": 52,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": 208,
+          "id:3": 53,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": 256,
+          "id:3": 54,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 28,
+          "x:3": -82,
+          "y:3": 304,
+          "id:3": 55,
+          "sizeY:3": 28
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 160,
+          "id:3": 56,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 208,
+          "id:3": 57,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 28,
+          "x:3": -2,
+          "y:3": 256,
+          "id:3": 58,
+          "sizeY:3": 28
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 80,
+          "y:3": 160,
+          "id:3": 59,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 28,
+          "x:3": 78,
+          "y:3": 208,
+          "id:3": 60,
+          "sizeY:3": 28
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 80,
+          "y:3": 264,
+          "id:3": 61,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 28,
+          "x:3": -2,
+          "y:3": 368,
+          "id:3": 62,
+          "sizeY:3": 28
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -64,
+          "y:3": 424,
+          "id:3": 63,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 64,
+          "y:3": 424,
+          "id:3": 64,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 32,
+          "x:3": -4,
+          "y:3": 480,
+          "id:3": 65,
+          "sizeY:3": 32
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 544,
+          "id:3": 66,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 40,
+          "x:3": -8,
+          "y:3": 600,
+          "id:3": 67,
+          "sizeY:3": 40
+        }
+      },
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "Era IV: Automation Age",
+          "icon:10": {
+            "id:8": "buildcraftbuilders:quarry",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Master BuildCraft automation! Learn the art of pipes - moving items, fluids, and power without lifting a finger. Three branches await: Item Pipes for logistics, Fluid Pipes for liquids, and Kinesis Pipes for power. Converge your knowledge to build automated factories and finally unlock the legendary QUARRY - automated mining at its finest!"
+        }
+      },
+      "order:3": 3
     }
   },
   "questSettings:10": {

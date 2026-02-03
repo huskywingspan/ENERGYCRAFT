@@ -8,6 +8,37 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Added
+- **Era IV: Automation Age Quest Line** - 19 quests (IDs 49-67)
+  - BuildCraft automation mastery theme
+  - Three-branch progression converging at Factory Assembly
+  - **Introduction (Quests 49-51):**
+    - Welcome to Automation (era intro, checkbox)
+    - The Gear System (Wood/Stone/Iron gears)
+    - Your First Engine (Stirling Engine + tips)
+  - **Item Pipes Branch (Quests 52-55):**
+    - Extraction Basics (Wooden Pipe)
+    - Transport Network (Cobble/Stone/Gold pipes)
+    - Directional Control (Iron Pipe)
+    - Smart Sorting (Diamond Pipe filtering)
+  - **Fluid Pipes Branch (Quests 56-58):**
+    - Liquid Logistics (Wooden/Stone fluid pipes)
+    - Tank Storage (BuildCraft tanks)
+    - Fluid Extraction (Pump)
+  - **Power Pipes Branch (Quests 59-61):**
+    - Power Distribution (Kinesis pipes)
+    - Power Conversion (Energy Bridge EU→MJ)
+    - High Power Engines (Combustion Engine)
+  - **Automation Projects (Quests 62-63):**
+    - Factory Assembly (automated ore processing)
+    - Geothermal Array (Nether lava power station)
+  - **The Quarry (Quests 64-67):**
+    - Drilling Down (Mining Well)
+    - The Quarry (crafting the legend)
+    - Full Automation (run Quarry, collect ores)
+    - ERA IV COMPLETE (gateway to Era V)
+  - Visual quest layout with three-branch structure
+
 ### Fixed
 - **Quest Item ID Corrections** - IC2 Classic uses different registry than expected
   - Updated Era II core quest IDs (Generator, BatBox, Macerator, E-Furnace)
