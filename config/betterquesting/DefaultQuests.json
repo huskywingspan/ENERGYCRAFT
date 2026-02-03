@@ -6785,6 +6785,1918 @@
           "levels:1": 0
         }
       }
+    },
+    "87:10": {
+      "questID:3": 87,
+      "preRequisites:11": [86],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:draconic_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Welcome to Ascension",
+          "desc:8": "Engineer, you have achieved what few dare attempt.\n\nYou've mined with stone tools. Generated power from coal. Split the atom itself.\n\nNow you stand at the threshold of §6ASCENSION§r.\n\nEra VI offers technology beyond mortal comprehension:\n\n§5🐉 Draconic Evolution§r - Harness dragon essence for limitless energy storage and god-tier equipment\n\n§a⚗️ ProjectE§r - Master equivalent exchange and transmute matter itself\n\n§b🌍 Environmental Tech§r - Build multiblock machines that harvest the void\n\nThree paths. All lead to ultimate power.\n\nChoose your destiny, Engineer. The universe awaits."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:dragon_breath",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:end_crystal",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "levels:1": 0
+        }
+      }
+    },
+    "88:10": {
+      "questID:3": 88,
+      "preRequisites:11": [87],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:end_portal_frame",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Journey to The End",
+          "desc:8": "Before ascending, you must face §5The End§r.\n\n§eThe End Dimension:§r\n- Accessed via End Portal (Stronghold)\n- Home to the Ender Dragon\n- Contains Draconium Ore (essential!)\n- End Cities have valuable loot\n\n§cPreparation Checklist:§r\n☐ Full diamond armor minimum\n☐ Bow with 2+ stacks of arrows\n☐ Ender Pearls for navigation\n☐ Blocks for pillaring\n☐ Pumpkin head (Endermen ignore you)\n☐ Water bucket (clutch saves)\n\nThe Ender Dragon awaits. This is your first step to Draconic power."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:dragon_egg",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:elytra",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:shulker_shell",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 1000,
+          "levels:1": 0
+        }
+      }
+    },
+    "89:10": {
+      "questID:3": 89,
+      "preRequisites:11": [88],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:draconium_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Draconium Discovery",
+          "desc:8": "§5Draconium§r is the foundation of Draconic Evolution!\n\n§eFinding Draconium:§r\n- Common in The End (outer islands)\n- Very rare in Overworld (deep underground)\n- Even rarer in Nether\n\n§eProcessing:§r\n1. Mine with Diamond+ pickaxe\n2. Smelt ore → Draconium Dust\n3. Smelt dust → Draconium Ingot\n\n§eOr use machines:§r\n- Macerator: 2 dust per ore\n- Thermal Centrifuge: Bonus materials\n\nYou'll need §cLOTS§r of Draconium. Start stockpiling now!\n\n§7Tip: The outer End islands (past the gateway) have the most ore.§r"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconium_ore",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconium_ingot",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconium_ingot",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "draconicevolution:draconium_dust",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "90:10": {
+      "questID:3": 90,
+      "preRequisites:11": [89],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:fusion_crafting_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Fusion Crafting",
+          "desc:8": "The §5Fusion Crafting Core§r is the heart of Draconic crafting!\n\n§eHow Fusion Crafting Works:§r\n1. Place Fusion Core in center\n2. Surround with Fusion Injectors (at least 4)\n3. Injectors can be up to 16 blocks away\n4. Each injector holds one ingredient\n5. Place main ingredient in Core\n6. Apply redstone signal to start\n7. Requires §cMASSIVE§r power!\n\n§eInjector Tiers:§r\n- Basic: Tier 1 recipes\n- Wyvern: Tier 2 recipes\n- Awakened: Tier 3 recipes (Draconic gear)\n\nBuild your first Fusion setup - this is how you'll craft everything in this era."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:fusion_crafting_core",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:crafting_injector",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:crafting_injector",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "draconicevolution:wyvern_core",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "levels:1": 0
+        }
+      }
+    },
+    "91:10": {
+      "questID:3": 91,
+      "preRequisites:11": [90],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:energy_storage_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Draconic Energy Core",
+          "desc:8": "The §5Energy Core§r is Draconic Evolution's legendary energy storage!\n\n§eTier 1 Core (Basic):§r\n- §645.5 MILLION§r RF capacity\n- 3x3x3 inner structure\n- Requires Energy Pylons for I/O\n\n§eBuilding the Core:§r\n1. Place Energy Storage Core (center)\n2. Build 3x3x3 frame of Draconium Blocks around it\n3. Leave the 6 face centers EMPTY\n4. Place Particle Generators in corners\n5. Place Energy Pylons facing the core\n6. Right-click core to activate\n\n§dThe core will VISUALIZE stored energy!§r\n\nThis single multiblock stores more than a thousand MFSUs."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:energy_storage_core",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:energy_pylon",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:particle_generator",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconium_block",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "draconicevolution:energy_pylon",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 750,
+          "levels:1": 0
+        }
+      }
+    },
+    "92:10": {
+      "questID:3": 92,
+      "preRequisites:11": [91],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:particle_generator",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Energy Core Tiers",
+          "desc:8": "Energy Cores can be §6EXPANDED§r for exponentially more storage!\n\n§eCore Tiers:§r\n| Tier | Inner Size | Capacity |\n| 1 | 3x3x3 | 45.5M RF |\n| 2 | 5x5x5 | 273M RF |\n| 3 | 7x7x7 | 1.64B RF |\n| 4 | 9x9x9 | 9.88B RF |\n| 5 | 11x11x11 | 59.3B RF |\n| 6 | 13x13x13 | 355B RF |\n| 7 | 15x15x15 | §62.14T RF§r |\n\n§eScaling Requirements:§r\n- Higher tiers need more Draconium blocks\n- More Particle Generators for stability\n- Awakened Draconium for Tier 5+\n\nA Tier 7 core stores more energy than you'll ever need!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconium_block",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:particle_generator",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconium_block",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "draconicevolution:awakened_core",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "levels:1": 0
+        }
+      }
+    },
+    "93:10": {
+      "questID:3": 93,
+      "preRequisites:11": [92],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:energy_crystal",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Wireless Energy",
+          "desc:8": "§5Energy Crystals§r provide §6WIRELESS§r energy transfer!\n\n§eHow Crystals Work:§r\n- Link crystal to Energy Core (right-click pylon)\n- Crystal broadcasts energy in radius\n- Machines in range receive power wirelessly\n- Crystals can chain for longer distances\n\n§eCrystal Tiers:§r\n- Basic: Short range, low transfer\n- Wyvern: Medium range, good transfer\n- Draconic: Long range, massive transfer\n\n§eCrystal Types:§r\n- Energy Relay Crystal: Broadcasts power\n- Wireless Crystal: For player inventory charging\n- I/O Crystal: Input/output for machines\n\nNo more cable spaghetti - just pure wireless energy!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:energy_crystal",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:energy_crystal",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:energy_crystal",
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "draconicevolution:dislocator",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "94:10": {
+      "questID:3": 94,
+      "preRequisites:11": [90],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:wyvern_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Wyvern Tier",
+          "desc:8": "§dWyvern§r is the first tier of Draconic equipment!\n\n§eWyvern Core Recipe (Fusion):§r\n- Core ingredient: Nether Star\n- Injectors: Draconium Ingots, Ender Eyes, more\n- Requires ~500,000 RF\n\nWyvern equipment is already §6MASSIVELY§r powerful:\n- §bWyvern Pickaxe:§r Mines 3x3, fast, unbreakable (with power)\n- §bWyvern Sword:§r Huge damage, AOE attack\n- §bWyvern Armor:§r Flight, damage immunity, buffs\n\nCraft your first Wyvern Core - this unlocks all Wyvern-tier items."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:wyvern_core",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:wyvern_core",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:nether_star",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "95:10": {
+      "questID:3": 95,
+      "preRequisites:11": [94],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:wyvern_pick",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Wyvern Gear",
+          "desc:8": "Craft your first set of §dWyvern equipment§r!\n\n§eWyvern Tools:§r\n- §bPickaxe:§r 3x3 mining, instant obsidian, AOE mode\n- §bSword:§r High damage, AOE sweep attack\n- §bBow:§r Rapid fire, explosive arrows, homing\n\n§eWyvern Armor (full set):§r\n- Flight (creative-style)\n- Fall damage immunity\n- Fire resistance\n- Jump boost\n- Night vision\n- Shield (absorbs damage)\n\n§cAll Wyvern gear is POWERED§r - keep it charged!\n\nCraft a Wyvern Pickaxe to experience the power."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:wyvern_pick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:wyvern_sword",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "draconicevolution:wyvern_core",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 750,
+          "levels:1": 0
+        }
+      }
+    },
+    "96:10": {
+      "questID:3": 96,
+      "preRequisites:11": [95],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:draconic_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Dragon Heart Ritual",
+          "desc:8": "§6Awakened Draconium§r is created through ritual!\n\n§eThe Awakening Process:§r\n1. Build Fusion Crafting setup with Awakened Injectors\n2. Place Draconium Block in Fusion Core\n3. Surround with Dragon Hearts + Draconium Ingots\n4. Apply §cMASSIVE§r power (millions of RF)\n5. Draconium transforms into Awakened Draconium!\n\n§eDragon Hearts:§r\n- Dropped by Ender Dragon\n- Dragon can be resummoned!\n- 4 End Crystals on exit portal = new dragon\n- Each kill = 1 Dragon Heart\n\nYou'll need many Dragon Hearts for Draconic-tier items."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:dragon_heart",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconic_ingot",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconic_ingot",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "draconicevolution:draconic_block",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "draconicevolution:awakened_core",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "97:10": {
+      "questID:3": 97,
+      "preRequisites:11": [96],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:draconic_pick",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Draconic Tier",
+          "desc:8": "§5Draconic§r equipment is the ultimate tier!\n\n§eDraconic Tools:§r\n- §bPickaxe:§r Up to 9x9 mining, destroys everything\n- §bSword:§r Massive damage, huge AOE, life steal\n- §bBow:§r Guided arrows, instant kill modes\n- §bStaff of Power:§r Pickaxe + Sword + Shovel in one!\n\n§eDraconic Armor (full set):§r\n- Everything Wyvern has, but §6BETTER§r\n- Significantly more shield capacity\n- Better flight speed\n- Chaos damage resistance\n\n§eRecipe Requirements:§r\n- Awakened Draconium blocks\n- Draconic Cores\n- Chaos Shards (for some items)\n- Tens of millions of RF\n\nCraft the Draconic Pickaxe - the ultimate mining tool."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconic_core",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconic_pick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconium_chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "draconicevolution:draconic_core",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 1000,
+          "levels:1": 0
+        }
+      }
+    },
+    "98:10": {
+      "questID:3": 98,
+      "preRequisites:11": [90],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "projecte:item.pe_philosophers_stone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Transmutation Begins",
+          "desc:8": "§aProjectE§r introduces §6TRANSMUTATION§r - converting matter!\n\n§eEMC System:§r\n- Everything has an EMC (Energy-Matter Covalence) value\n- Items can be converted TO and FROM EMC\n- Learn items to unlock them for transmutation\n\n§eThe Philosopher's Stone:§r\n- Ancient alchemical artifact\n- Transforms blocks in-world (right-click)\n- Stone ↔ Grass ↔ Sand ↔ etc.\n- Required for advanced crafting\n\n§eRecipe:§r\n- 4 Glowstone Dust\n- 4 Redstone\n- 1 Diamond\n\nThe Philosopher's Stone is your gateway to equivalent exchange!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_philosophers_stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_covalence_dust",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "projecte:item.pe_covalence_dust",
+              "Count:3": 32,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "projecte:item.pe_covalence_dust",
+              "Count:3": 16,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "99:10": {
+      "questID:3": 99,
+      "preRequisites:11": [98],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "projecte:transmutation_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Learning EMC",
+          "desc:8": "The §aTransmutation Table§r is your EMC workbench!\n\n§eHow it works:§r\n1. Place items in 'burn' slot to learn them\n2. Learned items appear in your personal knowledge\n3. Insert items to convert to EMC\n4. Extract items you've learned (costs EMC)\n\n§eEMC Examples:§r\n- Coal: 64 EMC\n- Iron Ingot: 256 EMC\n- Diamond: 8,192 EMC\n- Nether Star: 24,576 EMC\n\n§dLearning is PERMANENT§r - once learned, always available!\n\nBuild a Transmutation Table and learn your first items."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:transmutation_table",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:emerald",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "levels:1": 0
+        }
+      }
+    },
+    "100:10": {
+      "questID:3": 100,
+      "preRequisites:11": [99],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "projecte:condenser_mk1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Energy Condensers",
+          "desc:8": "§aEnergy Condensers§r automate EMC conversion!\n\n§eHow Condensers Work:§r\n1. Place target item in the lock slot\n2. Pipe items into the condenser\n3. Items convert to EMC automatically\n4. When enough EMC, output item is created!\n\n§eCondenser Tiers:§r\n- MK1: Standard speed\n- MK2: Much faster, better GUI\n\n§eAutomation Ideas:§r\n- Cobblestone generator → Condenser → Diamonds!\n- Farm drops → Condenser → Valuable items\n- ANY item can become ANY other item!\n\nBuild a condenser and set up your first EMC farm."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:condenser_mk1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "projecte:condenser_mk1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "projecte:item.pe_klein_star",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "101:10": {
+      "questID:3": 101,
+      "preRequisites:11": [100],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "projecte:item.pe_matter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Matter Synthesis",
+          "desc:8": "§8Dark Matter§r is condensed EMC made physical!\n\n§eCreating Dark Matter:§r\n- EMC Cost: §6139,264§r per piece\n- Crafted from Aeternalis Fuel + Diamond Block\n- Or transmuted directly with enough EMC\n\n§eDark Matter Equipment:§r\n- §bPickaxe:§r 3x3 mining, very fast\n- §bSword:§r High damage\n- §bArmor:§r Strong protection, abilities\n\n§eFuel Tiers (for crafting):§r\n- Alchemical Coal (512 EMC)\n- Mobius Fuel (2,048 EMC)\n- Aeternalis Fuel (8,192 EMC)\n\nDark Matter is the stepping stone to Red Matter!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_matter",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_matter",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "projecte:item.pe_dm_pick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 750,
+          "levels:1": 0
+        }
+      }
+    },
+    "102:10": {
+      "questID:3": 102,
+      "preRequisites:11": [101],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "projecte:item.pe_matter",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Ultimate Matter",
+          "desc:8": "§cRed Matter§r is the ultimate ProjectE material!\n\n§eCreating Red Matter:§r\n- EMC Cost: §6466,944§r per piece\n- Crafted from Dark Matter + Aeternalis Fuel\n- Requires significant EMC infrastructure\n\n§eRed Matter Equipment:§r\n- §bPickaxe:§r Configurable AOE (up to huge areas)\n- §bSword:§r One-shots most mobs\n- §bArmor:§r Near invincibility\n\n§eGem Armor (Ultimate):§r\n- Requires Red Matter + Gems\n- Creative flight\n- Complete invincibility\n- Step assist, speed, everything\n\nRed Matter represents mastery of equivalent exchange!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_matter",
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_rm_pick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_matter",
+              "Count:3": 8,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "projecte:item.pe_klein_star",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 1000,
+          "levels:1": 0
+        }
+      }
+    },
+    "103:10": {
+      "questID:3": 103,
+      "preRequisites:11": [90],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "environmentaltech:solar_cont_1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Environmental Tech",
+          "desc:8": "§bEnvironmental Tech§r provides passive power and resources!\n\n§eMultiblock Machines:§r\n- Solar Arrays: Generate RF from sunlight\n- Void Ore Miners: Create ores from nothing\n- Void Resource Miners: Generate other resources\n- Lightning Rods: Harvest storm power\n\n§eStructure Basics:§r\n- Controller block in center\n- Structure frames around it\n- Modifiers to boost performance\n- Liners for specific functions\n\nAll ET machines come in §66 tiers§r - higher = more powerful (and expensive!)\n\nStart with a basic Solar Array to learn the system."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "environmentaltech:solar_cont_1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "environmentaltech:structure_frame_1",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "environmentaltech:solar_cell_1",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "104:10": {
+      "questID:3": 104,
+      "preRequisites:11": [103],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "environmentaltech:void_ore_miner_cont_1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Void Ore Miner",
+          "desc:8": "§bVoid Ore Miners§r create ores from §6NOTHING§r!\n\n§eHow It Works:§r\n- Build the multiblock structure\n- Provide RF power\n- Ores spawn in the output!\n\n§eOre Selection:§r\n- Uses colored lenses to filter ore types\n- Different lenses = different ores\n- Higher tiers = more lenses = more ore types\n\n§ePower Requirements:§r\n- Tier 1: ~1,000 RF/t\n- Tier 6: ~100,000+ RF/t\n\n§dThis obsoletes traditional mining!§r\n\nWith a Void Miner, you never need to mine again. Just feed it power."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "environmentaltech:void_ore_miner_cont_1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "environmentaltech:void_ore_miner_cont_2",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "environmentaltech:modifier_speed",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 750,
+          "levels:1": 0
+        }
+      }
+    },
+    "105:10": {
+      "questID:3": 105,
+      "preRequisites:11": [104],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "environmentaltech:solar_cont_6",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Solar Array Tier 6",
+          "desc:8": "§6Tier 6 Solar Arrays§r produce §cMASSIVE§r power!\n\n§eSolar Array Comparison:§r\n| Tier | Approx RF/t | Size |\n| 1 | ~100 | Small |\n| 2 | ~500 | Medium |\n| 3 | ~2,000 | Large |\n| 4 | ~8,000 | Huge |\n| 5 | ~32,000 | Massive |\n| 6 | §6~128,000+§r | Enormous |\n\n§eModifiers:§r\n- Speed modifiers increase output\n- Can exceed base values significantly!\n\nA fully-modified Tier 6 array can power your entire base during daytime!\n\nReach for the ultimate solar power."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "environmentaltech:solar_cont_6",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "environmentaltech:modifier_speed",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "environmentaltech:solar_cell_6",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 1000,
+          "levels:1": 0
+        }
+      }
+    },
+    "106:10": {
+      "questID:3": 106,
+      "preRequisites:11": [105],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "environmentaltech:lightning_cont_1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Lightning Rods",
+          "desc:8": "§eLightning Rods§r harvest storm power!\n\n§eHow Lightning Rods Work:§r\n- Must be built at Y=128+ (high altitude)\n- Generates RF during thunderstorms\n- §6MASSIVE§r burst power when lightning strikes\n\n§eTiers:§r\n- Higher tiers attract more strikes\n- More power per strike\n- Larger collection area\n\n§eBest Setup:§r\n- Build at max height\n- Use multiple rods\n- Store power in Energy Core\n- Wait for storms!\n\nLightning is unpredictable but incredibly powerful when it hits!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "environmentaltech:lightning_cont_1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "environmentaltech:lightning_cont_3",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "levels:1": 0
+        }
+      }
+    },
+    "107:10": {
+      "questID:3": 107,
+      "preRequisites:11": [93, 97, 102, 106],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:chaos_shard",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Chaos Guardian",
+          "desc:8": "You've mastered all paths. Now face the §cULTIMATE§r challenge!\n\n§eThe Chaos Guardian:§r\n- Found on Chaos Islands in The End\n- Chaos Islands appear far from the main island\n- §4Most powerful boss in the modpack!§r\n\n§cPreparation:§r\n☐ Full Draconic Armor (MINIMUM)\n☐ Draconic weapons\n☐ Lots of healing items\n☐ Backup armor/weapons\n☐ Flight enabled\n☐ Shield fully charged\n\n§eDrops:§r\n- §5Chaos Shards§r - Used for ultimate items\n- Massive XP\n- Bragging rights!\n\n⚠️ The Chaos Guardian §4WILL§r kill unprepared players. This is the final boss."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:chaos_shard",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:chaos_shard",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "draconicevolution:draconic_core",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 2500,
+          "levels:1": 0
+        }
+      }
+    },
+    "108:10": {
+      "questID:3": 108,
+      "preRequisites:11": [107],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:energy_storage_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Maximum Energy",
+          "desc:8": "Build the §6ULTIMATE§r power infrastructure!\n\n§eGoals:§r\n1. §5Tier 7 Energy Core§r - 2.14 TRILLION RF storage\n2. §5Full Draconic Armor Set§r - Complete invincibility\n3. §5Draconic Staff of Power§r - Ultimate tool\n4. §aProjectE Gem Armor§r - Alternative ultimate set\n5. §bVoid Miner Tier 6§r - Infinite resources\n\n§dAt this point, you have:§r\n- Essentially infinite energy storage\n- Passive resource generation\n- Equipment that makes you invincible\n- Transmutation of any material\n\n§6You have achieved GODHOOD in Minecraft.§r"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconic_staff_of_power",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "draconicevolution:draconic_block",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "draconicevolution:creative_rf_source",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bedrock",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 5000,
+          "levels:1": 0
+        }
+      }
+    },
+    "109:10": {
+      "questID:3": 109,
+      "preRequisites:11": [108],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:draconic_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "ERA VI COMPLETE: Ascension",
+          "desc:8": "§6🎉 CONGRATULATIONS, ENGINEER! 🎉§r\n\nYou have completed EnergyCraft.\n\n§eYour journey:§r\n\n⛏️ §7Era I:§r Punched trees, made tools\n🔥 §6Era II:§r Harnessed steam and fire\n⚡ §eEra III:§r Mastered electricity\n🔧 §bEra IV:§r Built automated factories\n☢️ §aEra V:§r Split the atom\n🐉 §5Era VI:§r Achieved §6ASCENSION§r\n\n§dYou now command:§r\n- Trillions of RF energy\n- Matter transmutation\n- Dragon-forged equipment\n- Void-harvested resources\n- Power over the very fabric of reality\n\n§6The universe is yours, Engineer.§r\n\n§7Thank you for playing EnergyCraft.§r\n\n§8But there's always one more thing to build...§r"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:firework_rocket",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:nether_star",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:dragon_egg",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:beacon",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "minecraft:totem_of_undying",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 10000,
+          "levels:1": 0
+        }
+      }
+    },
+    "110:10": {
+      "questID:3": 110,
+      "preRequisites:11": [109],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:structure_void",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Victory Lap",
+          "desc:8": "You've beaten the modpack. Now what?\n\n§eIdeas for Continued Play:§r\n\n🏗️ §bBuild Mode:§r Create amazing structures with unlimited resources\n\n🎯 §eChallenges:§r\n- Speed run a new world\n- Try different tech paths\n- Build the most efficient reactor\n\n🌍 §aExplore:§r Visit every dimension, find every structure\n\n📚 §dShare:§r Document your builds, teach others\n\n🔨 §6Contribute:§r Found balance issues? Let us know!\n\n§7Or simply enjoy your hard-earned power.§r\n\n§8You are the master of this world now.§r"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:written_book",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "tag:10": {
+                "pages:9": ["§6EnergyCraft§r\n\nCongratulations on completing the modpack!\n\nYour journey from Stone Age to Ascension is complete."],
+                "author:8": "EnergyCraft Team",
+                "title:8": "Certificate of Completion"
+              }
+            },
+            "1:10": {
+              "id:8": "minecraft:firework_star",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -7501,6 +9413,195 @@
         }
       },
       "order:3": 4
+    },
+    "5:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 32,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 87,
+          "sizeY:3": 32
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 48,
+          "id:3": 88,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 96,
+          "id:3": 89,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 32,
+          "x:3": -4,
+          "y:3": 144,
+          "id:3": 90,
+          "sizeY:3": 32
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 208,
+          "id:3": 91,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 256,
+          "id:3": 92,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 28,
+          "x:3": -122,
+          "y:3": 304,
+          "id:3": 93,
+          "sizeY:3": 28
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -56,
+          "y:3": 208,
+          "id:3": 94,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -56,
+          "y:3": 256,
+          "id:3": 95,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -56,
+          "y:3": 304,
+          "id:3": 96,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 28,
+          "x:3": -58,
+          "y:3": 352,
+          "id:3": 97,
+          "sizeY:3": 28
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 32,
+          "y:3": 208,
+          "id:3": 98,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 32,
+          "y:3": 256,
+          "id:3": 99,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 32,
+          "y:3": 304,
+          "id:3": 100,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 32,
+          "y:3": 352,
+          "id:3": 101,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 28,
+          "x:3": 30,
+          "y:3": 400,
+          "id:3": 102,
+          "sizeY:3": 28
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 208,
+          "id:3": 103,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 256,
+          "id:3": 104,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 304,
+          "id:3": 105,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 28,
+          "x:3": 94,
+          "y:3": 352,
+          "id:3": 106,
+          "sizeY:3": 28
+        },
+        "20:10": {
+          "sizeX:3": 36,
+          "x:3": -6,
+          "y:3": 464,
+          "id:3": 107,
+          "sizeY:3": 36
+        },
+        "21:10": {
+          "sizeX:3": 32,
+          "x:3": -4,
+          "y:3": 528,
+          "id:3": 108,
+          "sizeY:3": 32
+        },
+        "22:10": {
+          "sizeX:3": 40,
+          "x:3": -8,
+          "y:3": 592,
+          "id:3": 109,
+          "sizeY:3": 40
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 656,
+          "id:3": 110,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "Era VI: Ascension",
+          "icon:10": {
+            "id:8": "draconicevolution:draconic_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "The ultimate power awaits! Master Draconic Evolution's energy cores and equipment, unlock ProjectE's transmutation abilities, and build Environmental Tech's massive multiblocks. Four paths converge at the Chaos Guardian - defeat it to achieve true Ascension."
+        }
+      },
+      "order:3": 5
     }
   },
   "questSettings:10": {

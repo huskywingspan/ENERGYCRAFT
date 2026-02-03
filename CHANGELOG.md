@@ -9,6 +9,42 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
+- **Era VI: Ascension Quest Line** - 24 quests (IDs 87-110)
+  - End-game power, transmutation, and dimensional technology
+  - Four-branch progression converging at Chaos Guardian
+  - **Introduction (Quests 87-90):**
+    - Welcome to Ascension (era intro, three paths)
+    - Journey to The End (Dragon Egg, End dimension)
+    - Draconium Discovery (ore mining & processing)
+    - Fusion Crafting (core DE crafting system)
+  - **Draconic Energy Branch (Quests 91-93):**
+    - Draconic Energy Core (multiblock energy storage)
+    - Energy Core Tiers (scaling to 2.14T RF)
+    - Wireless Energy (Energy Crystals network)
+  - **Draconic Equipment Branch (Quests 94-97):**
+    - Wyvern Tier (first Wyvern Cores)
+    - Wyvern Gear (Wyvern Pickaxe)
+    - Dragon Heart Ritual (Awakened Draconium)
+    - Draconic Tier (Draconic Pickaxe - ultimate)
+  - **ProjectE Branch (Quests 98-102):**
+    - Transmutation Begins (Philosopher's Stone)
+    - Learning EMC (Transmutation Table)
+    - Energy Condensers (automated EMC)
+    - Matter Synthesis (Dark Matter)
+    - Ultimate Matter (Red Matter)
+  - **Environmental Tech Branch (Quests 103-106):**
+    - Environmental Tech (intro, Solar Array T1)
+    - Void Ore Miner (passive ore generation)
+    - Solar Array Tier 6 (massive power)
+    - Lightning Rods (storm harvesting)
+  - **Convergence & Finale (Quests 107-110):**
+    - Chaos Guardian (requires all 4 branches!)
+    - Maximum Energy (Staff of Power, ultimate goals)
+    - ERA VI COMPLETE: Ascension (modpack completion)
+    - Victory Lap (optional celebration quest)
+  - Visual quest layout with four-branch structure
+  - Quest 107 (Chaos Guardian) requires completion of ALL branches
+
 - **Era V: Nuclear Age Quest Line** - 19 quests (IDs 68-86)
   - IC2 Classic nuclear power mastery theme
   - Three-branch progression converging at Breeder Reactor
