@@ -9,6 +9,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
+- **Era V: Nuclear Age Quest Line** - 19 quests (IDs 68-86)
+  - IC2 Classic nuclear power mastery theme
+  - Three-branch progression converging at Breeder Reactor
+  - **Introduction & Safety (Quests 68-75):**
+    - Welcome to Nuclear (danger warning, checkbox)
+    - Uranium Discovery (mining, radiation safety)
+    - Fuel Processing (uranium fuel rod crafting)
+    - Isotope Separation (Thermal Centrifuge)
+    - Understanding Heat (cooling fundamentals)
+    - Cooling Arsenal (vents, exchangers, coolants)
+    - First Reactor Build (safe starter design)
+    - Running Your Reactor (operation monitoring)
+  - **Efficiency Branch (Quests 76-78):**
+    - Expanding Capacity (Reactor Chambers)
+    - Mark II Reactor (continuous operation design)
+    - Maximizing Output (Neutron Reflectors)
+  - **Advanced Fuel Branch (Quests 79-81):**
+    - Maximum Power Rods (Quad Fuel Rods)
+    - MOX Fuel System (heat-boosted output)
+    - Fuel Reprocessing (plutonium production)
+  - **Safety Branch (Quests 82-83):**
+    - Hull Reinforcement (Reactor Plating)
+    - Reactor Control (Redstone Port automation)
+  - **Breeder & Completion (Quests 84-86):**
+    - Breeding Uranium (sustainable fuel cycle)
+    - Nuclear Mastery (full fuel cycle)
+    - ERA V COMPLETE (gateway to Era VI)
+  - Visual quest layout with three-branch structure
+
 - **Era IV: Automation Age Quest Line** - 19 quests (IDs 49-67)
   - BuildCraft automation mastery theme
   - Three-branch progression converging at Factory Assembly

@@ -5232,6 +5232,1559 @@
           "levels:1": 0
         }
       }
+    },
+    "68:10": {
+      "questID:3": 68,
+      "preRequisites:11": [67],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:te",
+            "Count:3": 1,
+            "Damage:2": 22,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Welcome to Nuclear",
+          "desc:8": "Engineer, you've mastered automation. Now it's time for REAL power.\n\nNuclear reactors produce enormous EU - enough to power entire bases from a single block. But they demand respect.\n\n§c⚠️ WARNING:§r Improperly designed reactors WILL:\n- Overheat and melt down\n- Explode (bigger than TNT!)\n- Irradiate the surrounding area\n\nThis era will teach you to harness the atom safely. Pay attention to the lessons - your base depends on it.\n\nAre you ready to split atoms?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:itemingot",
+              "Count:3": 32,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemplate",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 300,
+          "levels:1": 0
+        }
+      }
+    },
+    "69:10": {
+      "questID:3": 69,
+      "preRequisites:11": [68],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:blockresource",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Uranium Discovery",
+          "desc:8": "Uranium Ore spawns rarely below Y=64. It looks like green-tinted stone.\n\n§c⚠️ RADIATION WARNING:§r\n- Standing near uranium ore causes minor radiation\n- Carrying uranium items causes radiation damage\n- Use a Hazmat Suit for protection!\n\nMining Tips:\n- Macerator gives 2 Crushed Uranium per ore\n- Fortune pickaxe works on uranium ore\n- Check caves around Y=20 for best results\n\nGather uranium carefully - you'll need plenty for fuel rods."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:blockresource",
+              "Count:3": 8,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:itemingot",
+              "Count:3": 4,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemarmor_hazmat_helm",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 200,
+          "levels:1": 0
+        }
+      }
+    },
+    "70:10": {
+      "questID:3": 70,
+      "preRequisites:11": [69],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:reactoruraniumsimple",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Fuel Processing",
+          "desc:8": "Raw uranium must be processed into fuel rods.\n\n§6Processing Chain:§r\n1. Uranium Ore → Macerator → Crushed Uranium\n2. Crushed Uranium → Thermal Centrifuge → U-235 + U-238\n3. U-238 (6) + U-235 (3) → Enriched Uranium Fuel\n4. Enriched Fuel + Iron Plate → Uranium Fuel Rod\n\n§6Fuel Rod Types:§r\n- §aSingle:§r Basic, easy to cool\n- §eDual:§r 2x power, 2x heat\n- §cQuad:§r 4x power, 4x heat, HARD to cool!\n\nStart with single rods while learning."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactoruraniumsimple",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactoruraniumsimple",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemuran235",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ic2:itemuran238",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "71:10": {
+      "questID:3": 71,
+      "preRequisites:11": [70],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:te",
+            "Count:3": 1,
+            "Damage:2": 53,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Isotope Separation",
+          "desc:8": "The §6Thermal Centrifuge§r is essential for nuclear fuel processing.\n\nWhat it does:\n- Separates Crushed Uranium into U-235 (enriched) and U-238 (depleted)\n- Processes spent fuel cells for re-enrichment\n- Works at 48 EU/t (MV tier)\n\nRecipe:\n- 2 Motor\n- 2 Coil\n- 1 Machine Casing\n- 4 Advanced Alloy\n\nPro tip: Process ALL crushed uranium - both isotopes are valuable!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:te",
+              "Count:3": 1,
+              "Damage:2": 53,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:itemalloy",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemcrafting",
+              "Count:3": 4,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "72:10": {
+      "questID:3": 72,
+      "preRequisites:11": [71],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:reactorheatvent",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Understanding Heat",
+          "desc:8": "Reactor heat will §cKILL§r your reactor if not managed!\n\n§6Heat Sources:§r\n- Fuel rods generate heat every tick\n- Adjacent fuel rods multiply heat output\n- No cooling = temperature rises\n\n§6Heat Dissipation:§r\n- §aHeat Vents§r - Dissipate heat to air\n- §bHeat Exchangers§r - Move heat between components\n- §9Coolant Cells§r - Store heat temporarily\n- §7Plating§r - Increases max hull heat capacity\n\n§cThe Rule:§r Heat dissipated ≥ Heat generated = Safe reactor\n\nStart with basic Heat Vents - they're the foundation of all cooling."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactorheatvent",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactorheatvent",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemplate",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "73:10": {
+      "questID:3": 73,
+      "preRequisites:11": [72],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:reactorheatventoverclocked",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Cooling Arsenal",
+          "desc:8": "Different cooling components for different situations:\n\n§6Heat Vents:§r\n- Basic Vent: 6 heat/t self-cooling\n- Reactor Vent: 5 heat/t from hull\n- Overclocked Vent: 20 heat/t but needs incoming heat\n- Component Vent: 4 heat/t from adjacent\n\n§6Heat Exchangers:§r\n- Move heat between components\n- Reactor Exchanger: Hull ↔ Component\n- Component Exchanger: Between adjacents\n- Advanced Exchanger: 24 heat/t transfer\n\n§aPro Strategy:§r Use exchangers to move heat TO vents.\n\nCraft a variety - you'll need them for efficient designs."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactorheatventoverclocked",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactorheatexchanger",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactorcoolant1",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactorcoolant3",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:reactorheatexchangeradvanced",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "74:10": {
+      "questID:3": 74,
+      "preRequisites:11": [73],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:te",
+            "Count:3": 1,
+            "Damage:2": 22,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "First Reactor Build",
+          "desc:8": "Time to build your first nuclear reactor!\n\n§6Basic Reactor Recipe:§r\n- 3 Reactor Chambers (optional, expand grid)\n- 4 Dense Lead Plates\n- 1 Generator\n- 1 Advanced Machine Casing\n\n§aSAFE STARTER DESIGN (3x3 grid):§r\n[V] [U] [V]\n[V] [V] [V]\n[V] [U] [V]\nV = Heat Vent, U = Single Uranium Rod\n\nThis produces ~20 EU/t safely. Not efficient, but it §aWON'T explode!§r\n\nPlace the reactor, insert components via GUI, and watch the EU flow."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:te",
+              "Count:3": 1,
+              "Damage:2": 22,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactoruraniumsimple",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:reactorheatvent",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ic2:itemdenseplate",
+              "Count:3": 8,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "levels:1": 0
+        }
+      }
+    },
+    "75:10": {
+      "questID:3": 75,
+      "preRequisites:11": [74],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:itemenergycrystal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Running Your Reactor",
+          "desc:8": "Your reactor is built. Now learn to operate it!\n\n§6Monitoring:§r\n- Right-click reactor to open GUI\n- Reactor shows hull heat (keep below max!)\n- Components show individual heat\n- EU output shown on side displays\n\n§6Safety Checklist:§r\n☐ Heat vents outnumber fuel rods\n☐ Hull heat stays below 50%\n☐ EU is being extracted (full buffer = heat buildup)\n☐ MFSU or cable connected to reactor\n\n§cIf Heat Rises:§r\n1. Remove fuel rods IMMEDIATELY\n2. Let heat vent down\n3. Redesign with more cooling\n\nRun your reactor for 1 full fuel cycle to complete this quest."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:itemcellurandepleted",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:itemenergycrystal",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:reactorplating",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 300,
+          "levels:1": 0
+        }
+      }
+    },
+    "76:10": {
+      "questID:3": 76,
+      "preRequisites:11": [75],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:te",
+            "Count:3": 1,
+            "Damage:2": 23,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Expanding Capacity",
+          "desc:8": "§6Reactor Chambers§r expand your reactor grid!\n\nBase reactor: 3x6 = 18 slots\nWith 6 chambers: 9x6 = §a54 slots!§r\n\nPlacement:\n- Chambers must touch the reactor directly\n- Up to 6 chambers (one per face)\n- Each adds 1 column to the grid\n\nMore slots = more fuel + more cooling = more power!\n\nRecipe:\n- 4 Machine Casing\n- 4 Dense Lead Plates\n\nBuild your full 6-chamber reactor for maximum capacity."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:te",
+              "Count:3": 6,
+              "Damage:2": 23,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:itemdenseplate",
+              "Count:3": 16,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemalloy",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "77:10": {
+      "questID:3": 77,
+      "preRequisites:11": [76],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:reactoruraniumdual",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Mark II Reactor",
+          "desc:8": "Time to optimize! A §6Mark II reactor§r runs continuously at stable heat.\n\n§aEFFICIENT DESIGN (6 chambers, ~100 EU/t):§r\nRow 1: [OV][U ][CV][CV][U ][OV]\nRow 2: [HE][CV][OV][OV][CV][HE]\nRow 3: [OV][U ][CV][CV][U ][OV]\nRow 4: [HE][CV][OV][OV][CV][HE]\nRow 5: [OV][U ][CV][CV][U ][OV]\n\nOV=Overclocked Vent, CV=Component Vent\nHE=Heat Exchanger, U=Single Uranium\n\nThis balances heat generation with dissipation perfectly!\n\nGoal: Run 100 EU/t continuously."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactoruraniumdual",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactorheatventcomponent",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactoruraniumdual",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:reactorheatventoverclocked",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "levels:1": 0
+        }
+      }
+    },
+    "78:10": {
+      "questID:3": 78,
+      "preRequisites:11": [77],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:reactorreflectorthick",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Maximizing Output",
+          "desc:8": "§6Neutron Reflectors§r boost fuel rod output!\n\nHow they work:\n- Place adjacent to fuel rods\n- Reflects neutrons back into fuel\n- Increases EU output significantly\n- Adds §aNO heat generation!§r\n\nTypes:\n- Basic Reflector: 30k durability\n- Thick Reflector: 120k durability\n- Iridium Reflector: §dINFINITE§r durability\n\n§aPro Design Tip:§r\nSurround each fuel rod with reflectors on sides that don't have cooling.\n\nReflectors are the key to efficient high-output designs!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactorreflector",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactorreflectorthick",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactorreflectorthick",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemingot",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "79:10": {
+      "questID:3": 79,
+      "preRequisites:11": [75],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:reactoruraniumquad",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Maximum Power Rods",
+          "desc:8": "§6Quad Fuel Rods§r are the ultimate power source!\n\n4x the uranium = 4x the EU output\n§cBUT ALSO:§r 4x the heat generation!\n\nQuad rods are for §cEXPERTS ONLY:§r\n- Require massive cooling infrastructure\n- One quad rod can overwhelm basic setups\n- But efficiently cooled = incredible EU/t\n\n§6Recipe:§r 4 Single Rods + 3 Copper Plates + 1 Dense Copper Plate\n\n§cDon't put this in your reactor until you've mastered cooling!§r"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactoruraniumquad",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactoruraniumquad",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemdenseplate",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ic2:reactorcoolant6",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "80:10": {
+      "questID:3": 80,
+      "preRequisites:11": [79],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:reactormoxsimple",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "MOX Fuel System",
+          "desc:8": "§6MOX Fuel§r (Mixed Oxide) is advanced nuclear fuel!\n\n§aUnique Property:§r\n- EU output §aINCREASES§r with reactor heat\n- At 50% hull heat: ~1.5x output\n- At 84% hull heat: §d5x output!§r\n\n§c⚠️ EXTREME DANGER:§r\nMOX reactors run HOT deliberately. One mistake = meltdown.\n\nRecipe:\n- Plutonium (from reprocessed uranium)\n- Similar to regular fuel rods\n\nMOX is for players who want §dMAXIMUM§r power and can handle the risk."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactormoxsimple",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactormoxsimple",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemplutonium",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "levels:1": 0
+        }
+      }
+    },
+    "81:10": {
+      "questID:3": 81,
+      "preRequisites:11": [80],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:itemplutonium",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Fuel Reprocessing",
+          "desc:8": "Depleted uranium cells aren't waste - they're resources!\n\n§6Reprocessing Chain:§r\n1. Depleted Cell → Thermal Centrifuge → Plutonium + U-238\n2. Plutonium → MOX Fuel Rods\n3. U-238 → Re-enrichment or Breeder reactors\n\n§aSustainable Nuclear:§r\n- Run uranium reactor\n- Reprocess depleted cells\n- Make MOX from plutonium\n- Breed more U-235 from U-238\n\nA well-designed nuclear program is nearly §aself-sustaining!§r"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:itemplutonium",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactormoxsimple",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:itemplutonium",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemcelluran",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "levels:1": 0
+        }
+      }
+    },
+    "82:10": {
+      "questID:3": 82,
+      "preRequisites:11": [75],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:reactorplatingheat",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Hull Reinforcement",
+          "desc:8": "§6Reactor Plating§r increases hull heat capacity!\n\nWhy it matters:\n- Base hull: 10,000 heat capacity\n- Each plating: +1000 capacity\n- Heat-Capacity Plating: +2000 capacity\n\nMore capacity = more buffer before meltdown!\n\n§6Containment Plating:§r\n- Reduces explosion radius if meltdown occurs\n- Won't prevent meltdown, just limits damage\n- Use as insurance, not primary defense\n\nPlating lets you run hotter reactors safely."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactorplating",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:reactorplatingheat",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactorplatingheat",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemdenseplate",
+              "Count:3": 16,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "83:10": {
+      "questID:3": 83,
+      "preRequisites:11": [82],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:te",
+            "Count:3": 1,
+            "Damage:2": 24,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Reactor Control",
+          "desc:8": "Automate reactor safety with redstone control!\n\n§6Reactor Redstone Port:§r\n- Attach to reactor chamber\n- Configure in GUI for various signals\n- Can output: heat level, EU output status\n- Can input: enable/disable reactor\n\n§aSafety Setup:§r\n1. Redstone Port set to output at 75% heat\n2. Connect to NOT gate\n3. Feed back to reactor enable\n4. Reactor auto-shuts at high heat!\n\n§aPro Tip:§r Use ComputerCraft for advanced monitoring (if installed)."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:te",
+              "Count:3": 1,
+              "Damage:2": 24,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:comparator",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ic2:reactorplatingexplosive",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "84:10": {
+      "questID:3": 84,
+      "preRequisites:11": [78, 81, 83],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:itemcelluranreenriched",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Breeding Uranium",
+          "desc:8": "§6Breeder Reactors§r create MORE fuel than they consume!\n\nHow breeding works:\n- Neutrons from fuel rods hit U-238 cells\n- U-238 gradually enriches\n- Eventually becomes re-enriched uranium fuel!\n\n§aBreeder Design Principles:§r\n- Run at HIGH heat (increases breeding speed)\n- Surround fuel rods with U-238 cells\n- Use isotope cells, not empty cells\n- Be patient - breeding takes time\n\nA breeder + standard reactor = §ainfinite fuel!§r"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:itemcelluranreenriched",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:itemcelluran238",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:reactoruraniumsimple",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 750,
+          "levels:1": 0
+        }
+      }
+    },
+    "85:10": {
+      "questID:3": 85,
+      "preRequisites:11": [84],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:te",
+            "Count:3": 1,
+            "Damage:2": 22,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "Nuclear Mastery",
+          "desc:8": "You've learned the full nuclear fuel cycle!\n\n§6Complete Nuclear Setup:§r\n\n1. §eMining:§r Uranium ore → Macerator → Crushed\n2. §eSeparation:§r Thermal Centrifuge → U-235 + U-238\n3. §ePower Reactor:§r U-235 fuel rods → EU + Depleted cells\n4. §eReprocessing:§r Depleted → Plutonium + U-238\n5. §eBreeder:§r U-238 + neutrons → Re-enriched fuel\n6. §eMOX Production:§r Plutonium → MOX rods for heat-boosted power\n\nYou now command the atom. Use this power wisely!\n\nProduce depleted cells and plutonium to prove your mastery."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:itemcellurandepleted",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:itemplutonium",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ic2:reactorreflectoriridium",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ic2:itemlapotroncrystal",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 1000,
+          "levels:1": 0
+        }
+      }
+    },
+    "86:10": {
+      "questID:3": 86,
+      "preRequisites:11": [85],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ic2:te",
+            "Count:3": 1,
+            "Damage:2": 22,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
+          "name:8": "ERA V COMPLETE: Nuclear Engineer",
+          "desc:8": "§6NUCLEAR ENGINEER!§r\n\nYou have conquered the atom:\n\n☢️ Mined and processed uranium\n☢️ Built safe reactor designs\n☢️ Mastered heat management\n☢️ Explored MOX and breeder systems\n☢️ Achieved sustainable nuclear power\n\nYour base now has virtually unlimited EU. Millions of energy units flow at your command.\n\nBut there's always more power to harness...\n\n§dEra VI introduces DRACONIC EVOLUTION§r - technology so advanced it borders on magic. Energy cores the size of buildings. Armor that makes you invincible. Tools that reshape the world.\n\nOr perhaps transmutation calls to you? §aProjectE§r awaits...\n\nThe universe is yours, Engineer."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:te",
+              "Count:3": 1,
+              "Damage:2": 22,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:te",
+              "Count:3": 6,
+              "Damage:2": 23,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ic2:te",
+              "Count:3": 2,
+              "Damage:2": 74,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:firework_rocket",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:nether_star",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ic2:itemlapotroncrystal",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:diamond_block",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 5000,
+          "levels:1": 0
+        }
+      }
     }
   },
   "questLines:9": {
@@ -5794,6 +7347,160 @@
         }
       },
       "order:3": 3
+    },
+    "4:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 32,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 68,
+          "sizeY:3": 32
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 48,
+          "id:3": 69,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 96,
+          "id:3": 70,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 144,
+          "id:3": 71,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 192,
+          "id:3": 72,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 240,
+          "id:3": 73,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 28,
+          "x:3": -2,
+          "y:3": 304,
+          "id:3": 74,
+          "sizeY:3": 28
+        },
+        "7:10": {
+          "sizeX:3": 28,
+          "x:3": -2,
+          "y:3": 352,
+          "id:3": 75,
+          "sizeY:3": 28
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": 400,
+          "id:3": 76,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -80,
+          "y:3": 448,
+          "id:3": 77,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 28,
+          "x:3": -82,
+          "y:3": 496,
+          "id:3": 78,
+          "sizeY:3": 28
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 400,
+          "id:3": 79,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 448,
+          "id:3": 80,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 28,
+          "x:3": -2,
+          "y:3": 496,
+          "id:3": 81,
+          "sizeY:3": 28
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 80,
+          "y:3": 400,
+          "id:3": 82,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 28,
+          "x:3": 78,
+          "y:3": 448,
+          "id:3": 83,
+          "sizeY:3": 28
+        },
+        "16:10": {
+          "sizeX:3": 32,
+          "x:3": -4,
+          "y:3": 560,
+          "id:3": 84,
+          "sizeY:3": 32
+        },
+        "17:10": {
+          "sizeX:3": 28,
+          "x:3": -2,
+          "y:3": 608,
+          "id:3": 85,
+          "sizeY:3": 28
+        },
+        "18:10": {
+          "sizeX:3": 40,
+          "x:3": -8,
+          "y:3": 672,
+          "id:3": 86,
+          "sizeY:3": 40
+        }
+      },
+      "lineID:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "Era V: Nuclear Age",
+          "icon:10": {
+            "id:8": "ic2:te",
+            "Count:3": 1,
+            "Damage:2": 22,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Harness the power of the atom! Learn uranium processing, build nuclear reactors, master heat management, and achieve sustainable nuclear power. Three branches await: Efficiency designs, Advanced Fuel (MOX), and Safety systems. Handle with care - great power requires great responsibility."
+        }
+      },
+      "order:3": 4
     }
   },
   "questSettings:10": {
